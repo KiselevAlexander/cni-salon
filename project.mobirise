@@ -1,0 +1,3644 @@
+{
+  "settings": {
+    "name": "cni-salon.ru",
+    "currentPage": "manicure.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#d63cc6",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#d63cc6",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": true,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#d1b07d",
+        "#bdd17d",
+        "#2e2e2e",
+        "#d63cc6"
+      ]
+    },
+    "favicon": "",
+    "noImageResize": "",
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 83,
+    "versionPublish": "4.7.2",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "siteUrl": "http://cni-salon.ru/",
+    "sitemapSwitcherAuto": "on",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "google-analytics": "",
+    "sitemapSwitcher": "on"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "CNI-salon Краснодар - первая специализированная ногтевая студия",
+        "meta_descr": "Салон Красоты на Северной и Тургенева. Полный спектр ухода за ногтями: наращивание, моделирование, гель-лак, аппаратный и классический маникюр. Процедуры красоты: наращивание ресниц, броу-бар, перманентный макияж, шугаринг.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "footer1-3",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#d1b07d",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018. CNI Corporation"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": 5,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/a2oss-cagai-2000x2000.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "<p>CNI Salon</p>",
+                "showText": true,
+                "text": "Крупнейший в краснодаре ногтевой салон. <br>Эталонный маникюр и педикюр, шугаринг, услуги Browbar и Перманентный макияж с первоклассным сервисом.<br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">записаться</a> "
+              },
+              {
+                "active": true,
+                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=bamWQHHHsS0",
+                "overlay": true,
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "BROWBAR в подарок",
+                "showText": true,
+                "text": "Участвуйте в супер-акции. До конца ноября сделайте маникюр гель-лак или гель + педикюр и получите любую из услуг Browbar в подарок.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">записаться на процедуру</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/1e1b410633a1ffe3c1530e0781652d969dd8184b1c7aae2323pimgpsh-fullsize-distr-2000x2000.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "12 лучших зимних цветов гель-лаков",
+                "showText": true,
+                "text": "Насладитесь .",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/man-back.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "<p>CNI Salon</p>",
+                "showText": true,
+                "text": "Маникюр гель-лак, укрепление и наращивание ногтей только на материалах CNI. Премиум-качество, безопасность для ногтей, авторские методики по созданию вашего идеального маникюра.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">записаться</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/man-back.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "<p>CNI Salon</p>",
+                "showText": true,
+                "text": "- всё для того, чтобы подчеркнуть вашу уникальность.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">записаться</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/man-back.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "<p>CNI Salon</p>",
+                "showText": true,
+                "text": "Крупнейший в краснодаре ногтевой салон. <br>Эталонный маникюр и педикюр, шугаринг, услуги Browbar и Перманентный макияж с первоклассным сервисом.<br>Премиум-бренд для ногтей собственного производства и авторские методики - всё для того, чтобы подчеркнуть вашу уникальность.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">записаться</a> "
+              }
+            ]
+          },
+          "_anchor": "slider3-1",
+          "articleLayout": false
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#d63cc6!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-7",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-3-139x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Территория красивых людей.<br>г. Краснодар, ул. Северная, 225<br></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">УСЛУГИ И ЦЕНЫ</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"manicure.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Маникюр<br></a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Гель-лак</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Гель (моделирование ногтей)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Гель-лак с укреплением</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SMART-маникюр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Дизайн ногтей</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Маникюр + лак</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Baby Nails</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://cni-salon.ru/prices/\" aria-expanded=\"false\">Прайс-лист на все услуги</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Педикюр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Перманентный макияж</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Брови</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Ресницы</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Шугаринг</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Прайс-лист на услуги</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">СТЕРИЛИЗАЦИЯ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contacts.html\">АДРЕС И ТЕЛЕФОН</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"otzivi.html\">ОТЗЫВЫ И МАСТЕРА</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://mobirise.com/\">БЛОГ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">ЗАПИСАТЬСЯ</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-8",
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "title": "Цены на услуги салона",
+          "meta": ""
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 1,
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "filterBgColor": true,
+            "bgColor": "#ffffff",
+            "showText": true,
+            "filter": true,
+            "images": [
+              {
+                "tags": "Гель-лак",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dd6c2c8080347c14b417f15348e98e48b721e1dfad5a1c7d19pimgpsh-fullsize-distr-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dd6c2c8080347c14b417f15348e98e48b721e1dfad5a1c7d19pimgpsh-fullsize-distr-2000x2000.jpg",
+                "caption": "Маникюр + гель-лак<br>1 000 р.",
+                "active": false
+              },
+              {
+                "tags": "Наращивание",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cni-official-cni-corporation-instagram-google-chrome-2000x2003-800x801.jpg",
+                "image": "@PROJECT_PATH@/assets/images/cni-official-cni-corporation-instagram-google-chrome-2000x2003.jpg",
+                "caption": "Маникюр + наращивание гелем с удлинением до 1,5 см<br>2200 р.",
+                "active": false
+              },
+              {
+                "tags": "Педикюр",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cniart-instagram-google-chrome-2000x2006-800x802.jpg",
+                "image": "@PROJECT_PATH@/assets/images/cniart-instagram-google-chrome-2000x2006.jpg",
+                "caption": "Нейл-арт геометрия<br>150 р/ноготь",
+                "active": false
+              },
+              {
+                "tags": "Брови и ресницы",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cni2-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-cni2-2000x2000.jpg",
+                "caption": "Маникюр + BabyNails<br>2200 р.",
+                "active": false
+              },
+              {
+                "tags": "Шугаринг",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-2000x2000.jpg",
+                "caption": "Детский маникюр + лак<br>600 р.",
+                "active": false
+              },
+              {
+                "tags": "Перманентный макияж",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-2000x200091.jpg",
+                "caption": "Сложный вечерний дизайн<br>300 р/ноготь",
+                "active": false
+              },
+              {
+                "tags": "Перманентный макияж",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-2000x200091.jpg",
+                "caption": "Сложный вечерний дизайн<br>300 р/ноготь",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery3-9",
+          "articleLayout": false,
+          "allItem": "Популярное",
+          "_styles": {
+            "LI": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-a",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/a3-4-google-chrome-2000x614.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "выложи фото маникюра и выиграй iPhone X",
+          "text": "<p>участвуй в конкурсе и побеждай с CNI</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">узнать подробности</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-c",
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "title": "Портфолио",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 1,
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "filterBgColor": true,
+            "bgColor": "#ffffff",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2000x2000-800x800-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2000x2000-800x800.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cniart-instagram-google-chrome-2000x2006-800x802-800x802.jpg",
+                "image": "@PROJECT_PATH@/assets/images/cniart-instagram-google-chrome-2000x2006-800x802.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/a2oss-cagai-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/a2oss-cagai-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1e1b410633a1ffe3c1530e0781652d969dd8184b1c7aae2323pimgpsh-fullsize-distr-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1e1b410633a1ffe3c1530e0781652d969dd8184b1c7aae2323pimgpsh-fullsize-distr-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cni-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-cni-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-2000x200092.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mix-lamp-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mix-lamp-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cni-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-cni-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery3-b",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-d",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">больше фото</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">записаться</a>"
+        },
+        {
+          "alias": "instagram-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "instagram-feed-block",
+          "_anchor": "instagram-feed-block-e",
+          "_params": {
+            "token": "1266721754.727bfe1.6d48712ab793468e84434f541a9acdbb",
+            "showTitle": true,
+            "layoutGridRadio": true,
+            "imagesPerRowGrid": "6",
+            "rows": "2",
+            "showMoreButton": false,
+            "layoutSliderRadio": false,
+            "imagesPerRowSlider": "6",
+            "spacing": 5,
+            "fullWidth": false,
+            "paddingTop": "1",
+            "paddingBottom": 1,
+            "bgColorRadio": true,
+            "bgColor": "#d63cc6",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
+            "overlay": false,
+            "overlayColor": "#efefef",
+            "overlayOpacity": 0.6
+          },
+          "title": "Свежие новости. Instagram: <a href=\"https://instagram.com/cni_salon_krasnodar\" target=\"_blank\" class=\"text-black\">@cni_salon</a>",
+          "display2": "display-2",
+          "display4": "display-4",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-max-id=\"1719087776835929818_1266721754\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">показать ещё</a>"
+        },
+        {
+          "alias": "instagram-feed",
+          "_tags": [
+            "Расширения"
+          ],
+          "_name": "instagram-feed-block",
+          "_anchor": "instagram-feed-block-24",
+          "_params": {
+            "token": "1266721754.727bfe1.6d48712ab793468e84434f541a9acdbb",
+            "showTitle": true,
+            "layoutGridRadio": true,
+            "imagesPerRowGrid": 4,
+            "rows": 2,
+            "showMoreButton": true,
+            "layoutSliderRadio": false,
+            "imagesPerRowSlider": 4,
+            "spacing": 5,
+            "fullWidth": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColorRadio": false,
+            "bgColor": "#fafafa",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/instagram-background.jpg",
+            "overlay": false,
+            "overlayColor": "#efefef",
+            "overlayOpacity": 0.6
+          },
+          "title": "Instagram Feed",
+          "display2": "display-2",
+          "display4": "display-4",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Show more</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "text-align": "left",
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "color": "#000000"
+            }
+          },
+          "_anchor": "header2-h",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "showArrow": true,
+            "imageSize": 50,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://youtu.be/bamWQHHHsS0",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": "on",
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Почему вы любите CNI-salon?",
+          "text": "Идеальный маникюр, за которым хочется возвращаться<br>Атмосфера заботы, уюта и красоты<br>Премиум-качество за доступную цену<br>Безопасные материалы и медицинская стерилизация<br>Профессиональный умный подход мастеров<br>Постоянные сюрпризы и мероприятия для гостей.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">записаться на процедуру</a>"
+        },
+        {
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-22",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "краснодар, Северная, 225",
+              "placeId": "ChIJ0_-4iHJP8EAR6zGbw30RuVI",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>ул. Северная, 225, г. Краснодар<br>(ФМР, пересечение ул. Северной / Тургенева)<br><br><br>\n<strong>Contacts</strong><br>\nТелефон: +7 (861) 205-10-40<br>Мобильный: +7 (966) 740-74-60<br>Работаем ежедневно с 10:00 до 20:00<br>Есть парковка (заезд с ул. Артилерийской)",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul><li>Прайс-лист</li><li>Услуги</li><li><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\">О</a>тзывы</li><li>Инстаграм</li></ul>"
+        },
+        {
+          "_inherit": "social-buttons1",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "social-buttons3",
+          "_anchor": "social-buttons3-25",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "ПРИСОЕДИНЯЙТЕСЬ К НАМ В СОЦ.СЕТЯХ"
+        }
+      ]
+    },
+    "manicure.html": {
+      "settings": {
+        "meta_descr": "Маникюр гель (наращивание ногтей), гель-лак, гель-лак с укреплением, Smart-маникюр, Baby Nails, дизайн ногтей",
+        "title": "Маникюр CNI salon - цены на услуги",
+        "order": 5
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "6",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "ВИДЫ МАНИКЮРА И СТОИМОСТЬ",
+          "meta": "Ногтевая студия \"CNI-салон Краснодар\"",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-t"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 1,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "filterBgColor": true,
+            "bgColor": "#d1b07d",
+            "showText": true,
+            "filter": true,
+            "images": [
+              {
+                "tags": "Гель-лак",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dd6c2c8080347c14b417f15348e98e48b721e1dfad5a1c7d19pimgpsh-fullsize-distr-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dd6c2c8080347c14b417f15348e98e48b721e1dfad5a1c7d19pimgpsh-fullsize-distr-2000x2000.jpg",
+                "caption": "Маникюр + гель-лак<br>1 000 р.",
+                "active": false
+              },
+              {
+                "tags": "Гель (наращивание)",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cni-official-cni-corporation-instagram-google-chrome-2000x2003-800x801.jpg",
+                "image": "@PROJECT_PATH@/assets/images/cni-official-cni-corporation-instagram-google-chrome-2000x2003.jpg",
+                "caption": "Маникюр + наращивание гелем с удлинением до 1,5 см<br>2200 р.",
+                "active": false
+              },
+              {
+                "tags": "Smart-маникюр",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cniart-instagram-google-chrome-2000x2006-800x802.jpg",
+                "image": "@PROJECT_PATH@/assets/images/cniart-instagram-google-chrome-2000x2006.jpg",
+                "caption": "Нейл-арт геометрия<br>150 р/ноготь",
+                "active": true
+              },
+              {
+                "tags": "Baby Nails",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cni2-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-cni2-2000x2000.jpg",
+                "caption": "Маникюр + BabyNails<br>2200 р.",
+                "active": false
+              },
+              {
+                "tags": "Укрепление гель-лак",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-2000x2000.jpg",
+                "caption": "Детский маникюр + лак<br>600 р.",
+                "active": false
+              },
+              {
+                "tags": "Дизайн ногтей",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-2000x200091.jpg",
+                "caption": "Сложный вечерний дизайн<br>300 р/ноготь",
+                "active": false
+              },
+              {
+                "tags": "/",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-2000x200091.jpg",
+                "caption": "Сложный вечерний дизайн<br>300 р/ноготь",
+                "active": true
+              }
+            ]
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "articleLayout": false,
+          "allItem": "Все услуги",
+          "_name": "gallery3",
+          "_anchor": "gallery3-s"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#d1b07d",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018. CNI Corporation",
+          "_anchor": "footer1-p",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#d63cc6!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-3-139x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Территория красивых людей.<br>г. Краснодар, ул. Северная, 225<br></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">УСЛУГИ И ЦЕНЫ</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"manicure.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Маникюр<br></a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Гель-лак</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Гель (моделирование ногтей)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Гель-лак с укреплением</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SMART-маникюр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Дизайн ногтей</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Маникюр + лак</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Baby Nails</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://cni-salon.ru/prices/\" aria-expanded=\"false\">Прайс-лист на все услуги</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Педикюр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Перманентный макияж</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Брови</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Ресницы</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Шугаринг</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Прайс-лист на услуги</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">СТЕРИЛИЗАЦИЯ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contacts.html\">АДРЕС И ТЕЛЕФОН</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"otzivi.html\">ОТЗЫВЫ И МАСТЕРА</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://mobirise.com/\">БЛОГ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">ЗАПИСАТЬСЯ</a></li>",
+          "_anchor": "ext_menu-q"
+        },
+        {
+          "_inherit": "pricing-table1",
+          "_styles": {
+            ".mbr-plan-header, .mbr-plan-body": {
+              "background-color": "#f4f4f4"
+            },
+            "ul, .mbr-plan-title, .mbr-price-value, .mbr-price-figure, .mbr-price-term": {
+              "color": "#28262b"
+            },
+            ".mbr-plan": {
+              "border-color": "#e8e8e8"
+            },
+            ".mbr-plan .list-group-item": {
+              "border-color": "#cfcfcf"
+            },
+            "UL": {
+              "font-size": "12px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "",
+            "secondType": "bg-primary",
+            "thirdType": "",
+            "fourthType": "hidden",
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "showButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "description1": "1200 р.",
+          "description2": "1500 р.",
+          "description3": "1300 р.",
+          "description4": "More details",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\" data-toolbar=\"-mbrBtnMove\">записаться</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "title": "ЦЕНЫ НА МАНИКЮР",
+          "subtitle": "Стоимость услуг маникюра в CNI-салон Краснодар на ФМР.",
+          "title1": "ГЕЛЬ-ЛАК",
+          "title2": "ГЕЛЬ (НАРАЩИВАНИЕ)",
+          "title3": "SMART-МАНИКЮР",
+          "title4": "ULTIMATE",
+          "subtitle1": "тонкое декоротивное покрытие на своей длине",
+          "subtitle2": "придание любой длины и формы для всех типов ногтей",
+          "subtitle3": "укрепление и выравнивание без опила на своей длине",
+          "subtitle4": "Description",
+          "label1": "HOT!",
+          "label2": "HOT!",
+          "label3": "HOT!",
+          "label4": "HOT!",
+          "currency1": "",
+          "currency2": "",
+          "currency3": "",
+          "currency4": "$",
+          "price1": "",
+          "price2": "",
+          "price3": "",
+          "price4": "0",
+          "period1": "до 3-х недель<br>",
+          "period2": "до 5 недель",
+          "period3": "до 5 недель",
+          "period4": "/mo.",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">снятие старого покрытия (гель-лак или гель)\n</li><li class=\"list-group-item\">аппаратный маникюр\n</li><li class=\"list-group-item\">база + цветной гель-лак CNI + топ</li><li class=\"list-group-item\">срок носки маникюра 10-14 дней</li></ul>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">снятие старого покрытия (гель-лак или гель)\n</li><li class=\"list-group-item\">аппаратный маникюр\n</li><li class=\"list-group-item\">база + моделирование формы гелем CNI + цветное покрытие CNI + топ</li><li class=\"list-group-item\">гарантия на маникюр 7 дней\n</li><li class=\"list-group-item\">срок носки маникюра 14-21 день</li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">снятие старого покрытия (гель-лак или гель)\n</li><li class=\"list-group-item\">аппаратный маникюр<span style=\"background-color: initial; font-size: 0.875rem;\"></span></li><li class=\"list-group-item\">база + коррекция формы SMART-системой + цветное покрытие CNI + топ</li><li class=\"list-group-item\">гарантия на маникюр 10 дней\n</li><li class=\"list-group-item\">срок носки маникюра 14-21 день</li></ul>",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-x"
+        },
+        {
+          "_inherit": "pricing-table1",
+          "_styles": {
+            ".mbr-plan-header, .mbr-plan-body": {
+              "background-color": "#f4f4f4"
+            },
+            "ul, .mbr-plan-title, .mbr-price-value, .mbr-price-figure, .mbr-price-term": {
+              "color": "#28262b"
+            },
+            ".mbr-plan": {
+              "border-color": "#e8e8e8"
+            },
+            ".mbr-plan .list-group-item": {
+              "border-color": "#cfcfcf"
+            },
+            "UL": {
+              "font-size": "12px"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showSubtitle": false,
+            "firstType": "",
+            "secondType": "bg-primary",
+            "thirdType": "",
+            "fourthType": "hidden",
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "showButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "description1": "Включает",
+          "description2": "Подробнее",
+          "description3": "Подробнее",
+          "description4": "Подробнее",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "title": "ЦЕНЫ НА МАНИКЮР",
+          "subtitle": "Стоимость услуг маникюра в CNI-салон Краснодар на ФМР.",
+          "title1": "МАНИКЮР + ЛАК",
+          "title2": "ДИЗАЙН НОГТЕЙ",
+          "title3": "BABY NAILS",
+          "title4": "ULTIMATE",
+          "subtitle1": "аппаратный/классический маникюр с покрытием лаком",
+          "subtitle2": "дополнительное украшение для любого типа маникюра",
+          "subtitle3": "моделирование ногтей с дизайном за 1,5 часа",
+          "subtitle4": "Description",
+          "label1": "HOT!",
+          "label2": "HOT!",
+          "label3": "HOT!",
+          "label4": "HOT!",
+          "currency1": "",
+          "currency2": "",
+          "currency3": "",
+          "currency4": "$",
+          "price1": "600",
+          "price2": "50-150",
+          "price3": "2000",
+          "price4": "0",
+          "period1": "р.",
+          "period2": "р./ноготь",
+          "period3": "р.",
+          "period4": "/mo.",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">снятие старого покрытия (лак)\n</li><li class=\"list-group-item\">аппаратный /классический обрезной / комбинированный маникюр на выбор</li><li class=\"list-group-item\"><span style=\"background-color: initial; font-size: 0.875rem;\">лечебное или цветное покрытие лаком</span></li><li class=\"list-group-item\">срок носки маникюра до 7 дней</li></ul>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">сезонные коллекции nail-арт от CNI-salon</li><li class=\"list-group-item\">дизайн ногтей по фото</li><li class=\"list-group-item\">вечерние, праздничные, свадебные дизайны ногтей</li><li class=\"list-group-item\">жидкая фольга, омбре, стразы, бульонки, лунулы, негатив-спейс,&nbsp;</li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">снятие старого покрытия (гель-лак или гель)\n</li><li class=\"list-group-item\">аппаратный маникюр<span style=\"background-color: initial; font-size: 0.875rem;\"></span></li><li class=\"list-group-item\">моделирование ногтей гелями Baby Nails CNI</li><li class=\"list-group-item\">дизайн: французский маникюр с плавным переходом к белому</li><li class=\"list-group-item\">время процедуры вместе с дизайном 2 часа</li><li class=\"list-group-item\">гарантия на маникюр 10 дней\n</li><li class=\"list-group-item\">срок носки маникюра 14-28 дней</li><li class=\"list-group-item\">* прии срастании маникюра граница минимально заметна.</li></ul>",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-y"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "showArrow": true,
+            "imageSize": 50,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dfd242d4-b39d-4bac-b4a8-bca1eeca0b29-587x578.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/manik-505x505.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://youtu.be/bamWQHHHsS0",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "МАНИКЮР CNI - ЭТО<br>",
+          "text": "маникюр, который хочется делать снова и снова. Он идеально подходит к анатомии ногтей, подчеркивает стиль обладательницы, долго держится на ногтях и оставляет впечатление невыразимой элегантности. Это маникюр, который мы делаем с любовью, профессионализмом и медицинским подходом к здоровью ногтей.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">Подробнее</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-z"
+        }
+      ]
+    },
+    "pedicure.html": {
+      "settings": {
+        "meta_descr": "Аппаратный педикюр гель-лак и лак, протезирование ногтей, дизайн ногтей",
+        "title": "Педикюр CNI-salon",
+        "order": 6
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-12",
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "6",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "ВИДЫ ПЕДИКЮРА И СТОИМОСТЬ",
+          "meta": "Ногтевая студия \"CNI-салон Краснодар\""
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 1,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "filterBgColor": true,
+            "bgColor": "#bdd17d",
+            "showText": true,
+            "filter": true,
+            "images": [
+              {
+                "alt": "",
+                "tags": "Гель-лак",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/498x465-498x465.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-498x465.jpg",
+                "caption": "Педикюр пальчики + лак<br>1 100 р.",
+                "active": false
+              },
+              {
+                "alt": "",
+                "tags": "Стопы полностью + лак",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3-507x508-507x508.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3-507x508.jpg",
+                "caption": "Педикюр стопы полностью + лак<br>1300 р.",
+                "active": false
+              },
+              {
+                "alt": "",
+                "tags": "Пальчики + лак",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1-506x503-506x503.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1-506x503.jpg",
+                "caption": "Педикюр пальчики + гель-лак<br>1500 р",
+                "active": false
+              },
+              {
+                "alt": "",
+                "tags": "Обработка стоп",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2-501x501-501x501.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2-501x501.jpg",
+                "caption": "Аппаратная обработка стоп<br>900 р.",
+                "active": true
+              },
+              {
+                "tags": "Обработка стоп",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-2000x2000.jpg",
+                "caption": "Детский маникюр + лак<br>600 р.",
+                "active": false
+              },
+              {
+                "tags": "Дизайн ногтей",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-2000x200091.jpg",
+                "caption": "Сложный вечерний дизайн<br>300 р/ноготь",
+                "active": false
+              },
+              {
+                "tags": "/",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-2000x200091.jpg",
+                "caption": "Сложный вечерний дизайн<br>300 р/ноготь",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery3-13",
+          "articleLayout": false,
+          "allItem": "Все услуги"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "footer1-14",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#d1b07d",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018. CNI Corporation"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-15",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-3-139x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Территория красивых людей.<br>г. Краснодар, ул. Северная, 225<br></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">УСЛУГИ И ЦЕНЫ</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"manicure.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Маникюр<br></a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Гель-лак</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Гель (моделирование ногтей)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Гель-лак с укреплением</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SMART-маникюр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Дизайн ногтей</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Маникюр + лак</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Baby Nails</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://cni-salon.ru/prices/\" aria-expanded=\"false\">Прайс-лист на все услуги</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Педикюр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Перманентный макияж</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Брови</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Ресницы</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Шугаринг</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Прайс-лист на услуги</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">СТЕРИЛИЗАЦИЯ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contacts.html\">АДРЕС И ТЕЛЕФОН</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"otzivi.html\">ОТЗЫВЫ И МАСТЕРА</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://mobirise.com/\">БЛОГ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">ЗАПИСАТЬСЯ</a></li>"
+        },
+        {
+          "_inherit": "pricing-table1",
+          "_styles": {
+            ".mbr-plan-header, .mbr-plan-body": {
+              "background-color": "#f4f4f4"
+            },
+            "ul, .mbr-plan-title, .mbr-price-value, .mbr-price-figure, .mbr-price-term": {
+              "color": "#28262b"
+            },
+            ".mbr-plan": {
+              "border-color": "#e8e8e8"
+            },
+            ".mbr-plan .list-group-item": {
+              "border-color": "#cfcfcf"
+            },
+            "UL": {
+              "font-size": "12px"
+            }
+          },
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-16",
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "",
+            "secondType": "bg-primary",
+            "thirdType": "",
+            "fourthType": "hidden",
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "showButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "ЦЕНЫ НА ПЕДИКЮР",
+          "subtitle": "Стоимость услуг педикюра в CNI-салон Краснодар на ул. Северной, 225.",
+          "label1": "HOT!",
+          "title1": "Педикюр пальчики + лак",
+          "subtitle1": "аппаратный маникюр с покрытием гель-лак",
+          "currency1": "",
+          "price1": "1100",
+          "period1": "р.",
+          "description1": "Включает",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">снятие старого покрытия (гель-лак или гель)\n</li><li class=\"list-group-item\">аппаратный маникюр\n</li><li class=\"list-group-item\">база + цветной гель-лак CNI + топ</li><li class=\"list-group-item\">гарантия на маникюр 7 дней\n</li><li class=\"list-group-item\">срок носки маникюра 10-14 дней</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\" data-toolbar=\"-mbrBtnMove\">DEMO</a>",
+          "label2": "HOT!",
+          "title2": "Педикюр стоп полностью + лак",
+          "subtitle2": "аппаратный маникюр с покрытием гель-лак",
+          "currency2": "",
+          "price2": "1500",
+          "period2": "р.",
+          "description2": "Подробнее",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">снятие старого покрытия (гель-лак или гель)\n</li><li class=\"list-group-item\">аппаратный маникюр\n</li><li class=\"list-group-item\">база + моделирование формы гелем CNI + цветное покрытие CNI + топ</li><li class=\"list-group-item\">гарантия на маникюр 10 дней\n</li><li class=\"list-group-item\">срок носки маникюра 14-21 день</li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "label3": "HOT!",
+          "title3": "Педикюр пальчики + гель-лак",
+          "subtitle3": "аппаратный маникюр + укрепление + гель-лак",
+          "currency3": "",
+          "price3": "1700",
+          "period3": "р.",
+          "description3": "Подробнее",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">снятие старого покрытия (гель-лак или гель)\n</li><li class=\"list-group-item\">аппаратный маникюр<span style=\"background-color: initial; font-size: 0.875rem;\"></span></li><li class=\"list-group-item\">база + коррекция формы SMART-системой + цветное покрытие CNI + топ</li><li class=\"list-group-item\">гарантия на маникюр 10 дней\n</li><li class=\"list-group-item\">срок носки маникюра 14-21 день</li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "label4": "HOT!",
+          "title4": "ULTIMATE",
+          "subtitle4": "Description",
+          "currency4": "$",
+          "price4": "0",
+          "period4": "/mo.",
+          "description4": "Подробнее",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>"
+        },
+        {
+          "_inherit": "pricing-table1",
+          "_styles": {
+            ".mbr-plan-header, .mbr-plan-body": {
+              "background-color": "#f4f4f4"
+            },
+            "ul, .mbr-plan-title, .mbr-price-value, .mbr-price-figure, .mbr-price-term": {
+              "color": "#28262b"
+            },
+            ".mbr-plan": {
+              "border-color": "#e8e8e8"
+            },
+            ".mbr-plan .list-group-item": {
+              "border-color": "#cfcfcf"
+            },
+            "UL": {
+              "font-size": "12px"
+            }
+          },
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-17",
+          "_params": {
+            "showTitle": false,
+            "showSubtitle": false,
+            "firstType": "",
+            "secondType": "bg-primary",
+            "thirdType": "",
+            "fourthType": "hidden",
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "showButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "ЦЕНЫ НА МАНИКЮР",
+          "subtitle": "Стоимость услуг маникюра в CNI-салон Краснодар на ФМР.",
+          "label1": "HOT!",
+          "title1": "Аппаратная обработка стоп",
+          "subtitle1": "аппаратный/классический маникюр с покрытием лаком",
+          "currency1": "",
+          "price1": "900",
+          "period1": "р.",
+          "description1": "Включает",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">снятие старого покрытия (лак)\n</li><li class=\"list-group-item\">аппаратный /классический обрезной / комбинированный маникюр на выбор</li><li class=\"list-group-item\"><span style=\"background-color: initial; font-size: 0.875rem;\">лечебное или цветное покрытие лаком</span></li><li class=\"list-group-item\">срок носки маникюра до 7 дней</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "label2": "HOT!",
+          "title2": "ДИЗАЙН НОГТЕЙ",
+          "subtitle2": "дизайн гель-лаками, гелями, с фольгой, блестками, стразами и пр.",
+          "currency2": "",
+          "price2": "50-150",
+          "period2": "р./ноготь",
+          "description2": "Подробнее",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">сезонные коллекции nail-арт от CNI-salon</li><li class=\"list-group-item\">дизайн ногтей по фото</li><li class=\"list-group-item\">вечерние, праздничные, свадебные дизайны ногтей</li><li class=\"list-group-item\">жидкая фольга, омбре, стразы, бульонки, лунулы, негатив-спейс,&nbsp;</li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "label3": "HOT!",
+          "title3": "Педикюр стоп полностью + гель-лак",
+          "subtitle3": "аппаратный маникюр + гелевое моделирование + белый френч-градиент",
+          "currency3": "",
+          "price3": "2000",
+          "period3": "р.",
+          "description3": "Подробнее",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">снятие старого покрытия (гель-лак или гель)\n</li><li class=\"list-group-item\">аппаратный маникюр<span style=\"background-color: initial; font-size: 0.875rem;\"></span></li><li class=\"list-group-item\">моделирование ногтей гелями Baby Nails CNI</li><li class=\"list-group-item\">дизайн: французский маникюр с плавным переходом к белому</li><li class=\"list-group-item\">время процедуры вместе с дизайном 2 часа</li><li class=\"list-group-item\">гарантия на маникюр 10 дней\n</li><li class=\"list-group-item\">срок носки маникюра 14-28 дней</li><li class=\"list-group-item\">* прии срастании маникюра граница минимально заметна.</li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
+          "label4": "HOT!",
+          "title4": "ULTIMATE",
+          "subtitle4": "Description",
+          "currency4": "$",
+          "price4": "0",
+          "period4": "/mo.",
+          "description4": "Подробнее",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>"
+        },
+        {
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-18",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "showArrow": true,
+            "imageSize": 50,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/a73f80ea-1771-4b72-a86f-40441638b8d4-800x633.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/manik-505x505.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://youtu.be/bamWQHHHsS0",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "ПЕДИКЮР CNI - ЭТО<br>",
+          "text": "педикюр с применением специальных размягчающих средств и «трёхступенчатой» полировки стоп на профессиональном оборудовании;\n<br>без использования воды и режущих инструментов;\n<br>в результате Вы обретаете гладкие и красивые ухоженные ноги&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">Подробнее</a>"
+        }
+      ]
+    },
+    "contacts.html": {
+      "settings": {
+        "meta_descr": "Студия маникюра Краснодар, ФМР. Записаться на маникюр, педикюр, гель-лак, микроблейдинг, перманентный макияж, моделирование бровей, наращивание ресниц.",
+        "title": "Адрес и телефон",
+        "order": 4
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#d1b07d",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018. CNI Corporation",
+          "_anchor": "footer1-i",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#d63cc6!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-3-139x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Территория красивых людей.<br>г. Краснодар, ул. Северная, 225<br></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">УСЛУГИ И ЦЕНЫ</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"manicure.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Маникюр<br></a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Гель-лак</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Гель (моделирование ногтей)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Гель-лак с укреплением</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SMART-маникюр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Дизайн ногтей</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Маникюр + лак</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Baby Nails</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://cni-salon.ru/prices/\" aria-expanded=\"false\">Прайс-лист на все услуги</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Педикюр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Перманентный макияж</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Брови</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Ресницы</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Шугаринг</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Прайс-лист на услуги</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">СТЕРИЛИЗАЦИЯ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contacts.html\">АДРЕС И ТЕЛЕФОН</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"otzivi.html\">ОТЗЫВЫ И МАСТЕРА</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://mobirise.com/\">БЛОГ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">ЗАПИСАТЬСЯ</a></li>",
+          "_anchor": "ext_menu-j"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/desktop.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "АДРЕС И ТЕЛЕФОН&nbsp;",
+          "text": "Студия маникюра CNI-salon в Краснодаре .находится по адресу<br>ул. Северная, (между ул. Тургенева и Карла Маркса), ФМР",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">Подробнее</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-u"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 0,
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": true,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bike-small.jpg",
+                "alt": "",
+                "caption": "фото кабинета педикюра",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/code-man.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/code-man-small.jpg",
+                "alt": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/coworkers.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/coworkers-small.jpg",
+                "alt": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/desktop.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/desktop-small.jpg",
+                "alt": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/room-laptop-small.jpg",
+                "alt": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/table.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/table-small.jpg",
+                "alt": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/windows-books.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/windows-books-small.jpg",
+                "alt": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/working-area.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/working-area-small.jpg",
+                "alt": "",
+                "caption": "Type caption here"
+              }
+            ]
+          },
+          "_tags": [
+            "Темы"
+          ],
+          "articleLayout": false,
+          "allItem": "All",
+          "_name": "gallery2",
+          "_anchor": "gallery2-1e"
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "placeId": "ChIJn6wOs6lZwokRLKy1iqRcoKw",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          },
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-1c"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "form": {
+            "action": "89186216438@mail.ru",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-1d",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
+        }
+      ]
+    },
+    "sterelizatsiya.html": {
+      "settings": {
+        "meta_descr": "Безопасность процедуры маникюра и педикюра в нейл-студии обеспечивается 2-х ступенчатой стерелизацией инструментов многоразового использования. Медицинский подход и дезинфекция - стандарты обсллуживания CNI-salon. ",
+        "title": "Стерелизация инструмента в ногтевом салоне CNI",
+        "order": 2
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "footer1-10",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#d1b07d",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018. CNI Corporation"
+        },
+        {
+          "_inherit": "social-buttons1",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "_tags": [
+            "Тема"
+          ],
+          "text": "ПРИСОЕДИНЯЙТЕСЬ К НАМ В СОЦ.СЕТЯХ",
+          "_name": "social-buttons3",
+          "_anchor": "social-buttons3-28"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#d63cc6!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-11",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-3-139x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Территория красивых людей.<br>г. Краснодар, ул. Северная, 225<br></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">УСЛУГИ И ЦЕНЫ</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"manicure.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Маникюр<br></a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Гель-лак</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Гель (моделирование ногтей)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Гель-лак с укреплением</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SMART-маникюр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Дизайн ногтей</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Маникюр + лак</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Baby Nails</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://cni-salon.ru/prices/\" aria-expanded=\"false\">Прайс-лист на все услуги</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Педикюр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Перманентный макияж</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Брови</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Ресницы</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Шугаринг</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Прайс-лист на услуги</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">СТЕРИЛИЗАЦИЯ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contacts.html\">АДРЕС И ТЕЛЕФОН</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"otzivi.html\">ОТЗЫВЫ И МАСТЕРА</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://mobirise.com/\">БЛОГ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">ЗАПИСАТЬСЯ</a></li>"
+        },
+        {
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-19",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "2",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/desktop.jpg"
+            },
+            "video": {
+              "src": "https://yadi.sk/i/zTkKMCWh3TnxUT",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "СТЕРИЛИЗАЦИЯ ИНСТРУМЕНТА",
+          "text": "В CNI-салон мы уделяем особое внимание безопасности гостей во время процедуры. Весь инструмент многоразвого использования проходит двухфазную обработку: сначала в сухожаровом шкафу, затем в микроциде. Набор инструментов для процедуры стерелизуется и упаковывается в крафт-пакет.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">Подробнее</a>"
+        },
+        {
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": "1",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "alt": "",
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2018-03-27-10.13.27-1296x786-800x485.png",
+                "image": "@PROJECT_PATH@/assets/images/-2018-03-27-10.13.27-1296x786.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "alt": "",
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3-593x332-593x332.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-3-593x332.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "alt": "",
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/4-591x336-591x336.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-4-591x336.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "alt": "",
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/5-590x334-590x334.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-5-590x334.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery1-1a",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            },
+            "H3": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-1b",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "2",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/-2-591x333.jpg",
+              "link": "",
+              "alt": "Инструмент в крафт-пакетах на столе мастера",
+              "title": "Инструмент в крафт-пакетах на столе мастера"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "ЭТАПЫ СТЕРИЛИЗАЦИИ",
+          "text": "<br>✅Перед началом стерилизации каждое изделие запечатывается в индивидуальный крафт пакет, после чего он отправляется в сухожаровой шкаф. <br>✅Под воздействием раскаленной температуры происходит 100% гибель всех клеток бактерий, грибков и вирусов при средней температуре 180 градусов на протяжении 2 часов.\n<br>✅На 2м этапе металлические предметы отправляются в микроцидный стерилизатор. За 3 минуты обработки под действием ультрафиолетового облучения вирусы гепатита, гриппа, кори, краснухи, полиомиелита, туберкулеза, стафилококки, кишечная палочка, СПИДа, &nbsp;а также их споровые формы и грибковая флора полностью инактивируются.\n<br>\n✅В крафт-пакете инструмент многоразового использования попадает на стол мастера и вскрывается в присутствии клиента перед началом процедуры.<br>Мы думаем и заботимся о Вашей безопасности.💯 <br>Выбирая нас, Вы выбираете здоровье.🙏.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">Подробнее</a>"
+        }
+      ]
+    },
+    "otzivi.html": {
+      "settings": {
+        "meta_descr": "",
+        "title": "Отзывы и мастера",
+        "order": 3
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1m",
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "6",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Отзывы о маникюре и педикюре CNI-salon",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 0,
+            "paddingTop": 0,
+            "paddingBottom": "3",
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": true,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/delete-review1-2000x936-800x374.jpg",
+                "image": "@PROJECT_PATH@/assets/images/delete-review1-2000x936.jpg",
+                "caption": "Первый гель-лак, который держится на ногтях",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/delete-review2-2000x976-800x390.jpg",
+                "image": "@PROJECT_PATH@/assets/images/delete-review2-2000x976.jpg",
+                "caption": "Гелевое наращивание ногтей - это моё.<br>",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/delete-review3-2000x1010-800x404.jpg",
+                "image": "@PROJECT_PATH@/assets/images/delete-review3-2000x1010.jpg",
+                "caption": "Отзыв о посещении салона CNI",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/delete-review4-2000x1184-800x473.jpg",
+                "image": "@PROJECT_PATH@/assets/images/delete-review4-2000x1184.jpg",
+                "caption": "самые мягкие пяточки после педикюра CNI",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/delete-review4-2000x1184-800x473.jpg",
+                "image": "@PROJECT_PATH@/assets/images/delete-review4-2000x1184.jpg",
+                "caption": "Я забыла про отслойки с гелевым маникюром",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/delete-review3-2000x1010-800x404.jpg",
+                "image": "@PROJECT_PATH@/assets/images/delete-review3-2000x1010.jpg",
+                "caption": "<span style=\"font-size: 0.9em; line-height: 1.5;\">Укрепление ногтей гелем помогло отрастить натуральные ногти!</span><br>",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/delete-review2-2000x976-800x390.jpg",
+                "image": "@PROJECT_PATH@/assets/images/delete-review2-2000x976.jpg",
+                "caption": "Детский маникюр - это не больно!",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/delete-review1-2000x936-800x374.jpg",
+                "image": "@PROJECT_PATH@/assets/images/delete-review1-2000x936.jpg",
+                "caption": "Очень аккуратный шугаринг.",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery1-1p",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-1o",
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false,
+            "columnsColor": "#ffffff",
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Отзыв о маникюре CNI-salon Краснодар",
+              "title": "Отзыв о маникюре гель-лак",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Маникюр гель-лак",
+          "subtitle1": "Анна Артемьева",
+          "caption1": "Спасибо за очень качественный и красивый маникюр. Он действительно держится. Сегодня пришла на гель-лак только потому что старый за 3 недели отрос. У меня ни один гель-лак так не держался.<br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Укрепление ногтей Smart",
+          "subtitle2": "Яна Лисица",
+          "caption2": "С моими мягкими ногтями тяжело подобрать гель-лак. Мастер посоветовала сделать укрепление Смарт. Теперь советую всем",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x373.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Шугаринг",
+          "subtitle3": "Елена Троицкая",
+          "caption3": "Приятный мастер, стерильность. Хожу не первый год и всегда довольна.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Окрашивание бровей",
+          "subtitle4": "Регина Ягель",
+          "caption4": "Стойкий цвет, очень красивый оттенок. Видно, что салон не экономит на краске. Пока ждала действия краски, угощали меня кофе и конфетками. Очень уютное место.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "media6": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "text-align": "center",
+              "color": "#000000"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-title": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-1w",
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "labelsColor": "#232323",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Составьте свое мнение об услугах CNI-salon",
+          "subtitle": "Оставьте заявку на посещение салона и менеджер перезвонит вам в течение 2 часов.",
+          "form": {
+            "action": "89186216438@mail.ru",
+            "alerts": {
+              "success": "Благодарим за заявку. Менеджер позвонит вам, чтобы записать на процедуру."
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Имя*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": false,
+                "customTitle": "Email. который вы проверяете*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Телефон*"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1r",
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Мастера CNI-salon",
+          "meta": "Мастера маникюра, педикюра, бровисты, мастера наращивания ресниц и шугаринга.<br>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 0,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": true,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9375-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9375-2000x2666.jpg",
+                "caption": "Тамара Барболина<br>классический маникюр, гель-лак, укрепление ногтей, наращивание, дизайн ногтей: акварель, геометрия, &nbsp;стразы, праздничные дизайны",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9276-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9276-2000x2666.jpg",
+                "caption": "Тамара Барболина<br>классический маникюр, гель-лак, укрепление ногтей, наращивание, дизайн ногтей: акварель, геометрия,  стразы, праздничные дизайны<br>",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9822-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9822-2000x2666.jpg",
+                "caption": "Алиса Покрас<br>окрашивание и моделирование бровей, классический маникюр, гель-лак, укрепление ногтей, наращивание, дизайн ногтей:&nbsp;<br>",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9694-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9694-2000x2666.jpg",
+                "caption": "Александра Попова<br>гелевое моделирование, Смарт-маникюр, гель-лак. Дизайн ногтей: граттаж, фрнеч-маникюр, глиттеры, фольга",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery2-1q",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 0,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": true,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9375-2000x2666-800x106693.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9375-2000x266697.jpg",
+                "caption": "Тамара Барболина<br>классический маникюр, гель-лак, укрепление ногтей, наращивание, дизайн ногтей: акварель, геометрия, &nbsp;стразы, праздничные дизайны",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9276-2000x2666-800x106694.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9276-2000x266698.jpg",
+                "caption": "Тамара Барболина<br>классический маникюр, гель-лак, укрепление ногтей, наращивание, дизайн ногтей: акварель, геометрия,  стразы, праздничные дизайны<br>",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9822-2000x2666-800x106695.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9822-2000x266699.jpg",
+                "caption": "Алиса Покрас<br>окрашивание и моделирование бровей, классический маникюр, гель-лак, укрепление ногтей, наращивание, дизайн ногтей:&nbsp;<br>",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9694-2000x2666-800x106696.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9694-2000x2666100.jpg",
+                "caption": "Александра Попова<br>гелевое моделирование, Смарт-маникюр, гель-лак. Дизайн ногтей: граттаж, фрнеч-маникюр, глиттеры, фольга",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery2-1s",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "footer1-1g",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#d1b07d",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018. CNI Corporation"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "../../app/themes/mobirise3/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "../../app/themes/mobirise3/components/_images/gallery/desktop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "../../app/themes/mobirise3/components/_images/gallery/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "../../app/themes/mobirise3/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "../../app/themes/mobirise3/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "../../app/themes/mobirise3/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Классический маникюр или аппаратный",
+          "subtitle1": "развеиваем мифы у корней ногтей",
+          "caption1": "Во многих салонах Краснодара стоимость аппаратного маникюра выше обрезного, что заставляет клиента сомневаться, стоит ли продолжать делать классику? На самом деле...",
+          "title2": "Тренды летнего маникюра:<br>цвет, дизайн, сочетания",
+          "subtitle2": "мода / стиль",
+          "caption2": "Цвета летнего сезона - &nbsp;лиловый, красный и горчишный. Лето по-традиции приносит яркость в вещи, макияж и нейл-арт. Но не обшлось без сюрпризов...",
+          "title3": "Почему происходит отслойка ногтей",
+          "subtitle3": "Здоровье / Маникюр",
+          "caption3": "Каждая третяя женщина знает, что такое отслойка на гель-лаке или гелевых ногтях. 1 из 2 случаев - это вина мастера. Другая половина отслоек - следствие ...",
+          "title4": "Мусульманский маникюр. <br>Все дело в воде.",
+          "subtitle4": "Традиции / Маникюр",
+          "caption4": "В мусульманских странах маникюр совсем другой. Те, кто бывал в ОАЭ или Турции уверенно скажут: ногти как ногти. Но есть различия, о которых непосвященные не догадываются...",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-2a"
+        },
+        {
+          "_inherit": "social-buttons1",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "_tags": [
+            "Тема"
+          ],
+          "text": "ПРИСОЕДИНЯЙТЕСЬ К НАМ В СОЦ.СЕТЯХ",
+          "_name": "social-buttons3",
+          "_anchor": "social-buttons3-29"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#d63cc6!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1h",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-3-139x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Территория красивых людей.<br>г. Краснодар, ул. Северная, 225<br></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">УСЛУГИ И ЦЕНЫ</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"manicure.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Маникюр<br></a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Гель-лак</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Гель (моделирование ногтей)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Гель-лак с укреплением</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SMART-маникюр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Дизайн ногтей</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Маникюр + лак</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Baby Nails</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://cni-salon.ru/prices/\" aria-expanded=\"false\">Прайс-лист на все услуги</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Педикюр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Перманентный макияж</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Брови</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Ресницы</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Шугаринг</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Прайс-лист на услуги</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">СТЕРИЛИЗАЦИЯ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contacts.html\">АДРЕС И ТЕЛЕФОН</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"otzivi.html\">ОТЗЫВЫ И МАСТЕРА</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://mobirise.com/\">БЛОГ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">ЗАПИСАТЬСЯ</a></li>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 0,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": true,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9375-2000x2666-800x106693.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9375-2000x266697.jpg",
+                "caption": "Тамара Барболина<br>классический маникюр, гель-лак, укрепление ногтей, наращивание, дизайн ногтей: акварель, геометрия, &nbsp;стразы, праздничные дизайны",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9276-2000x2666-800x106694.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9276-2000x266698.jpg",
+                "caption": "Тамара Барболина<br>классический маникюр, гель-лак, укрепление ногтей, наращивание, дизайн ногтей: акварель, геометрия,  стразы, праздничные дизайны<br>",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9822-2000x2666-800x106695.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9822-2000x266699.jpg",
+                "caption": "Алиса Покрас<br>окрашивание и моделирование бровей, классический маникюр, гель-лак, укрепление ногтей, наращивание, дизайн ногтей:&nbsp;<br>",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9694-2000x2666-800x106696.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9694-2000x2666100.jpg",
+                "caption": "Александра Попова<br>гелевое моделирование, Смарт-маникюр, гель-лак. Дизайн ногтей: граттаж, фрнеч-маникюр, глиттеры, фольга",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery2-1t",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 0,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": true,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9375-2000x2666-800x106693.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9375-2000x266697.jpg",
+                "caption": "Тамара Барболина<br>классический маникюр, гель-лак, укрепление ногтей, наращивание, дизайн ногтей: акварель, геометрия, &nbsp;стразы, праздничные дизайны",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9276-2000x2666-800x106694.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9276-2000x266698.jpg",
+                "caption": "Тамара Барболина<br>классический маникюр, гель-лак, укрепление ногтей, наращивание, дизайн ногтей: акварель, геометрия,  стразы, праздничные дизайны<br>",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9822-2000x2666-800x106695.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9822-2000x266699.jpg",
+                "caption": "Алиса Покрас<br>окрашивание и моделирование бровей, классический маникюр, гель-лак, укрепление ногтей, наращивание, дизайн ногтей:&nbsp;<br>",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9694-2000x2666-800x106696.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9694-2000x2666100.jpg",
+                "caption": "Александра Попова<br>гелевое моделирование, Смарт-маникюр, гель-лак. Дизайн ногтей: граттаж, фрнеч-маникюр, глиттеры, фольга",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery2-1u",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 0,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": true,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9375-2000x2666-800x106693.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9375-2000x266697.jpg",
+                "caption": "Тамара Барболина<br>классический маникюр, гель-лак, укрепление ногтей, наращивание, дизайн ногтей: акварель, геометрия, &nbsp;стразы, праздничные дизайны",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9276-2000x2666-800x106694.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9276-2000x266698.jpg",
+                "caption": "Тамара Барболина<br>классический маникюр, гель-лак, укрепление ногтей, наращивание, дизайн ногтей: акварель, геометрия,  стразы, праздничные дизайны<br>",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9822-2000x2666-800x106695.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9822-2000x266699.jpg",
+                "caption": "Алиса Покрас<br>окрашивание и моделирование бровей, классический маникюр, гель-лак, укрепление ногтей, наращивание, дизайн ногтей:&nbsp;<br>",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-9694-2000x2666-800x106696.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-9694-2000x2666100.jpg",
+                "caption": "Александра Попова<br>гелевое моделирование, Смарт-маникюр, гель-лак. Дизайн ногтей: граттаж, фрнеч-маникюр, глиттеры, фольга",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery2-1v",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            },
+            "H3": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "msg-box5-1k",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "2",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/-2-591x333.jpg",
+              "link": "",
+              "alt": "Инструмент в крафт-пакетах на столе мастера",
+              "title": "Инструмент в крафт-пакетах на столе мастера"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "ЭТАПЫ СТЕРИЛИЗАЦИИ",
+          "text": "<br>✅Перед началом стерилизации каждое изделие запечатывается в индивидуальный крафт пакет, после чего он отправляется в сухожаровой шкаф. <br>✅Под воздействием раскаленной температуры происходит 100% гибель всех клеток бактерий, грибков и вирусов при средней температуре 180 градусов на протяжении 2 часов.\n<br>✅На 2м этапе металлические предметы отправляются в микроцидный стерилизатор. За 3 минуты обработки под действием ультрафиолетового облучения вирусы гепатита, гриппа, кори, краснухи, полиомиелита, туберкулеза, стафилококки, кишечная палочка, СПИДа, &nbsp;а также их споровые формы и грибковая флора полностью инактивируются.\n<br>\n✅В крафт-пакете инструмент многоразового использования попадает на стол мастера и вскрывается в присутствии клиента перед началом процедуры.<br>Мы думаем и заботимся о Вашей безопасности.💯 <br>Выбирая нас, Вы выбираете здоровье.🙏.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">Подробнее</a>"
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "meta_descr": "Site Generator Description",
+        "title": "Блог",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#d63cc6!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-3-139x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Территория красивых людей.<br>г. Краснодар, ул. Северная, 225<br></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">УСЛУГИ И ЦЕНЫ</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"manicure.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Маникюр<br></a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Гель-лак</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Гель (моделирование ногтей)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Гель-лак с укреплением</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SMART-маникюр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Дизайн ногтей</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Маникюр + лак</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Baby Nails</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://cni-salon.ru/prices/\" aria-expanded=\"false\">Прайс-лист на все услуги</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Педикюр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Перманентный макияж</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Брови</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Ресницы</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Шугаринг</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Прайс-лист на услуги</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">СТЕРИЛИЗАЦИЯ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contacts.html\">АДРЕС И ТЕЛЕФОН</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"otzivi.html\">ОТЗЫВЫ И МАСТЕРА</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://mobirise.com/\">БЛОГ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">ЗАПИСАТЬСЯ</a></li>",
+          "_anchor": "ext_menu-1y"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "5",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Блог о маникюре и красоте",
+          "meta": "от студии красоты CNI-salon",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-21"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/desktop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Классический маникюр или аппаратный",
+          "subtitle1": "развеиваем мифы у корней ногтей",
+          "caption1": "Во многих салонах Краснодара стоимость аппаратного маникюра выше обрезного, что заставляет клиента сомневаться, стоит ли продолжать делать классику? На самом деле...",
+          "title2": "Тренды летнего маникюра:<br>цвет, дизайн, сочетания",
+          "subtitle2": "мода / стиль",
+          "caption2": "Цвета летнего сезона - &nbsp;лиловый, красный и горчишный. Лето по-традиции приносит яркость в вещи, макияж и нейл-арт. Но не обшлось без сюрпризов...",
+          "title3": "Почему происходит отслойка ногтей",
+          "subtitle3": "Здоровье / Маникюр",
+          "caption3": "Каждая третяя женщина знает, что такое отслойка на гель-лаке или гелевых ногтях. 1 из 2 случаев - это вина мастера. Другая половина отслоек - следствие ...",
+          "title4": "Мусульманский маникюр. <br>Все дело в воде.",
+          "subtitle4": "Традиции / Маникюр",
+          "caption4": "В мусульманских странах маникюр совсем другой. Те, кто бывал в ОАЭ или Турции уверенно скажут: ногти как ногти. Но есть различия, о которых непосвященные не догадываются...",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">читать</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">читать</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">читать</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">читать</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-20"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/desktop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Маникюр при аллергии",
+          "subtitle1": "развеиваем мифы у корней ногтей",
+          "caption1": "Во многих салонах Краснодара стоимость аппаратного маникюра выше обрезного, что заставляет клиента сомневаться, стоит ли продолжать делать классику? На самом деле...",
+          "title2": "Гелевое наращивание при беременности",
+          "subtitle2": "мода / стиль",
+          "caption2": "Цвета летнего сезона - &nbsp;лиловый, красный и горчишный. Лето по-традиции приносит яркость в вещи, макияж и нейл-арт. Но не обшлось без сюрпризов...",
+          "title3": "Главное не кто, а чем. Что зависит от мастера, а что от гель-лака",
+          "subtitle3": "Здоровье / Маникюр",
+          "caption3": "Каждая третяя женщина знает, что такое отслойка на гель-лаке или гелевых ногтях. 1 из 2 случаев - это вина мастера. Другая половина отслоек - следствие ...",
+          "title4": "Шугаринг. Моя сладкая боль",
+          "subtitle4": "Традиции / Маникюр",
+          "caption4": "В мусульманских странах маникюр совсем другой. Те, кто бывал в ОАЭ или Турции уверенно скажут: ногти как ногти. Но есть различия, о которых непосвященные не догадываются...",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">Подробнее</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-23"
+        },
+        {
+          "_inherit": "social-buttons1",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "_tags": [
+            "Тема"
+          ],
+          "text": "ПРИСОЕДИНЯЙТЕСЬ К НАМ В СОЦ.СЕТЯХ",
+          "_name": "social-buttons3",
+          "_anchor": "social-buttons3-27"
+        }
+      ]
+    }
+  }
+}

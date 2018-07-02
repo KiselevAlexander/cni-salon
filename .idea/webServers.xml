@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3bb1ffe1-e13c-48e3-8ad3-40c4aff14a23" name="prod" url="http://ssh.saloncni.nichost.ru">
+        <fileTransfer host="ssh.saloncni.nichost.ru" port="22" rootFolder="/home/saloncni/cni-salon.ru/docs" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="59a628dd-6aca-444c-8376-f9af7de98606" name="ftp_prod" url="http://ftp.saloncni.nichost.ru">
+        <fileTransfer host="ftp.saloncni.nichost.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
