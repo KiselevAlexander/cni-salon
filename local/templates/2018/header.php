@@ -8,7 +8,7 @@
         <link rel="shortcut icon" href="<?=SITE_TEMPLATE_PATH?>/assets/images/-3-139x128.png" type="image/x-icon">
         <meta name="description" content="Салон Красоты на Северной и Тургенева. Полный спектр ухода за ногтями: наращивание, моделирование, гель-лак, аппаратный и классический маникюр. Процедуры красоты: наращивание ресниц, броу-бар, перманентный макияж, шугаринг.">
         <title><?$APPLICATION->ShowTitle()?></title>
-        <?//$APPLICATION->ShowHead();?>
+        <?$APPLICATION->ShowHead();?>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&subset=latin">
@@ -27,7 +27,7 @@
     </head>
 
 <body>
-<div id="panel"><?//$APPLICATION->ShowPanel();?></div>
+<div id="panel"><?$APPLICATION->ShowPanel();?></div>
 <section id="ext_menu-7" data-rv-view="2">
 
     <nav class="navbar navbar-dropdown navbar-fixed-top">

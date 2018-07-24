@@ -1,0 +1,7 @@
+<p class="soc-title">
+	 Новости и примеры работ ищите в соц.сетях!
+</p>
+<div style="display:none;">
+ <a href=""><img src="/upload/fb.png" alt=""></a> <a href=""><img src="/upload/ig.png" alt=""></a> <a href=""><img src="/upload/vk.png" alt=""></a> <a href="https://www.instagram.com/cni_salon_krasnodar/" target="_blank"><img width="53" src="/upload/inst1.png" height="53"></a> <a href="https://vk.com/cni_salon_krasnodar" target="_blank"><img width="53" src="/upload/vk1.png" height="53"></a><a href="https://www.facebook.com/%D0%9D%D0%BE%D0%B3%D1%82%D0%B5%D0%B2%D0%BE%D0%B9-%D1%81%D0%B0%D0%BB%D0%BE%D0%BD-CNI-%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80-347468022037021/" target="_blank"><img width="53" src="/upload/fb1.png" height="53"></a>
+</div>
+ <a href="https://www.instagram.com/cni_salon_krasnodar/" target="_blank"><img width="53" src="/upload/1469615477_social-instagram-new-square2.png" height="53"></a> <a href="https://vk.com/cni_salon_krasnodar" target="_blank"><img width="53" src="/upload/1469615442_11.png" height="53"></a><a href="https://www.facebook.com/%D0%9D%D0%BE%D0%B3%D1%82%D0%B5%D0%B2%D0%BE%D0%B9-%D1%81%D0%B0%D0%BB%D0%BE%D0%BD-CNI-%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80-347468022037021/" target="_blank"><img width="53" src="/upload/1469615455_3.png" height="53"></a>

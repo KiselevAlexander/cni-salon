@@ -225,3 +225,8 @@ button.slick-prev.slick-arrow {
     border-bottom-color: #e0a6aa;
     text-shadow: none !important;
 }
+
+
+#bx-panel {
+    top: 100px;
+}

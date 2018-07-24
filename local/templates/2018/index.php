@@ -113,161 +113,47 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
 
                 <a data-app-prevent-settings="" class="left carousel-control" role="button" data-slide="prev" href="#slider3-1">
                     <span class="icon-prev" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                    <span class="sr-only">Предыдущая</span>
                 </a>
                 <a data-app-prevent-settings="" class="right carousel-control" role="button" data-slide="next" href="#slider3-1">
                     <span class="icon-next" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                    <span class="sr-only">Следующая</span>
                 </a>
             </div>
         </div>
     </div>
 </section>
 
-<section class="mbr-section mbr-section__container article" id="header3-8" data-rv-view="4" style="background-color: rgb(255, 255, 255); padding-top: 40px; padding-bottom: 20px;">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h3 class="mbr-section-title display-2">Цены на услуги салона</h3>
-                <small class="mbr-section-subtitle"></small>
-            </div>
-        </div>
-    </div>
-</section>
+<?$APPLICATION->IncludeComponent(
+	"bitrix:catalog.section.list",
+	"services_grid",
+	array(
+		"ADD_SECTIONS_CHAIN" => "Y",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"COUNT_ELEMENTS" => "Y",
+		"IBLOCK_ID" => "8",
+		"IBLOCK_TYPE" => "Service",
+		"SECTION_CODE" => "",
+		"SECTION_FIELDS" => array(
+			0 => "",
+			1 => "",
+		),
+		"SECTION_ID" => $_REQUEST["SECTION_ID"],
+		"SECTION_URL" => "",
+		"SECTION_USER_FIELDS" => array(
+			0 => "",
+			1 => "",
+		),
+		"SHOW_PARENT_NAME" => "Y",
+		"TOP_DEPTH" => "2",
+		"VIEW_MODE" => "LINE",
+		"COMPONENT_TEMPLATE" => "services_grid"
+	),
+	false
+);?>
 
-<section class="mbr-gallery mbr-section mbr-section-nopadding mbr-slider-carousel" data-filter="true" id="gallery3-9" data-rv-view="6" style="background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 1.5rem;">
-    <!-- Filter -->
-    <div class="mbr-gallery-filter container gallery-filter-active gallery-filter__bg">
-        <ul>
-            <li class="mbr-gallery-filter-all active">Популярное</li>
-        </ul>
-    </div>
-
-    <!-- Gallery -->
-    <div class="mbr-gallery-row container">
-        <div class=" mbr-gallery-layout-default">
-            <div>
-                <div>
-                    <div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Гель-лак">
-                        <div href="#lb-gallery3-9" data-slide-to="0" data-toggle="modal">
-
-
-
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/dd6c2c8080347c14b417f15348e98e48b721e1dfad5a1c7d19pimgpsh-fullsize-distr-2000x2000-800x800.jpg">
-
-                            <span class="icon-focus"></span>
-                            <span class="mbr-gallery-title">Маникюр + гель-лак<br>1 000 р.</span>
-                        </div>
-                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Наращивание">
-                        <div href="#lb-gallery3-9" data-slide-to="1" data-toggle="modal">
-
-
-
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/cni-official-cni-corporation-instagram-google-chrome-2000x2003-800x801.jpg">
-
-                            <span class="icon-focus"></span>
-                            <span class="mbr-gallery-title">Маникюр + наращивание гелем с удлинением до 1,5 см<br>2200 р.</span>
-                        </div>
-                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Педикюр">
-                        <div href="#lb-gallery3-9" data-slide-to="2" data-toggle="modal">
-
-
-
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/cniart-instagram-google-chrome-2000x2006-800x802.jpg">
-
-                            <span class="icon-focus"></span>
-                            <span class="mbr-gallery-title">Нейл-арт геометрия<br>150 р/ноготь</span>
-                        </div>
-                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Брови и ресницы">
-                        <div href="#lb-gallery3-9" data-slide-to="3" data-toggle="modal">
-
-
-
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/cni2-2000x2000-800x800.jpg">
-
-                            <span class="icon-focus"></span>
-                            <span class="mbr-gallery-title">Маникюр + BabyNails<br>2200 р.</span>
-                        </div>
-                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Шугаринг">
-                        <div href="#lb-gallery3-9" data-slide-to="4" data-toggle="modal">
-
-
-
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/2000x2000-800x800.jpg">
-
-                            <span class="icon-focus"></span>
-                            <span class="mbr-gallery-title">Детский маникюр + лак<br>600 р.</span>
-                        </div>
-                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Перманентный макияж">
-                        <div href="#lb-gallery3-9" data-slide-to="5" data-toggle="modal">
-
-
-
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/2000x2000-800x800.jpg">
-
-                            <span class="icon-focus"></span>
-                            <span class="mbr-gallery-title">Сложный вечерний дизайн<br>300 р/ноготь</span>
-                        </div>
-                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Перманентный макияж">
-                        <div href="#lb-gallery3-9" data-slide-to="6" data-toggle="modal">
-
-
-
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/2000x2000-800x800.jpg">
-
-                            <span class="icon-focus"></span>
-                            <span class="mbr-gallery-title">Сложный вечерний дизайн<br>300 р/ноготь</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-
-    <!-- Lightbox -->
-    <div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery3-9">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <ol class="carousel-indicators">
-                        <li data-app-prevent-settings="" data-target="#lb-gallery3-9" data-slide-to="0"></li><li data-app-prevent-settings="" data-target="#lb-gallery3-9" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#lb-gallery3-9" data-slide-to="2"></li><li data-app-prevent-settings="" data-target="#lb-gallery3-9" data-slide-to="3"></li><li data-app-prevent-settings="" data-target="#lb-gallery3-9" data-slide-to="4"></li><li data-app-prevent-settings="" data-target="#lb-gallery3-9" data-slide-to="5"></li><li data-app-prevent-settings="" data-target="#lb-gallery3-9" data-slide-to="6"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item">
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/dd6c2c8080347c14b417f15348e98e48b721e1dfad5a1c7d19pimgpsh-fullsize-distr-2000x2000.jpg">
-                        </div><div class="carousel-item">
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/cni-official-cni-corporation-instagram-google-chrome-2000x2003.jpg">
-                        </div><div class="carousel-item">
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/cniart-instagram-google-chrome-2000x2006.jpg">
-                        </div><div class="carousel-item">
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/-cni2-2000x2000.jpg">
-                        </div><div class="carousel-item">
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/-2000x2000.jpg">
-                        </div><div class="carousel-item">
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/-2000x200091.jpg">
-                        </div><div class="carousel-item">
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/-2000x200091.jpg">
-                        </div>
-                    </div>
-                    <a class="left carousel-control" role="button" data-slide="prev" href="#lb-gallery3-9">
-                        <span class="icon-prev" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" role="button" data-slide="next" href="#lb-gallery3-9">
-                        <span class="icon-next" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-
-                    <a class="close" href="#" role="button" data-dismiss="modal">
-                        <span aria-hidden="true">×</span>
-                        <span class="sr-only">Close</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="mbr-section article mbr-parallax-background" id="msg-box8-a" data-rv-view="123" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/assets/images/a3-4-google-chrome-2000x614.jpg); padding-top: 120px; padding-bottom: 120px;">
 
@@ -276,9 +162,35 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-xs-center">
-                <h3 class="mbr-section-title display-2">выложи фото маникюра и выиграй iPhone X</h3>
-                <div class="lead"><p>участвуй в конкурсе и побеждай с CNI</p></div>
-                <div><a class="btn btn-secondary" href="#">узнать подробности</a></div>
+                <h3 class="mbr-section-title display-2">
+                    <?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
+                        "AREA_FILE_SHOW" => "file",
+                        "PATH" => "/local/templates/2018/includes/main_page_action/title.php",
+                        "EDIT_TEMPLATE" => ""
+                    ),
+                        false
+                    );?>
+                </h3>
+                <div class="lead">
+                    <div style="color: #fff; margin-top: 2em">
+                        <?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
+                            "AREA_FILE_SHOW" => "file",
+                            "PATH" => "/local/templates/2018/includes/main_page_action/description.php",
+                            "EDIT_TEMPLATE" => ""
+                        ),
+                            false
+                        );?>
+                    </div>
+                </div>
+                <div>
+                    <?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
+                        "AREA_FILE_SHOW" => "file",
+                        "PATH" => "/local/templates/2018/includes/main_page_action/button.php",
+                        "EDIT_TEMPLATE" => ""
+                    ),
+                        false
+                    );?>
+                </div>
             </div>
         </div>
     </div>
@@ -438,7 +350,7 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
     </div>
 </section>
 
-<section class="mbr-section mbr-section__container" id="buttons1-d" data-rv-view="150" style="background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;">
+<!--<section class="mbr-section mbr-section__container" id="buttons1-d" data-rv-view="150" style="background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;">
 
     <div class="container">
         <div class="row">
@@ -448,9 +360,9 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
         </div>
     </div>
 
-</section>
+</section>-->
 
-<section class="mbr-instagram-feed" data-rows="2" data-per-row-slider="" data-spacing="5" data-full-width="" data-token="1266721754.727bfe1.6d48712ab793468e84434f541a9acdbb" data-per-row-grid="6" id="instagram-feed-block-e" data-rv-view="74" style="background-color: rgb(214, 60, 198); padding-top: 40px; padding-bottom: 40px;">
+<!--<section class="mbr-instagram-feed" data-rows="2" data-per-row-slider="" data-spacing="5" data-full-width="" data-token="1266721754.727bfe1.6d48712ab793468e84434f541a9acdbb" data-per-row-grid="6" id="instagram-feed-block-e" data-rv-view="74" style="background-color: rgb(214, 60, 198); padding-top: 40px; padding-bottom: 40px;">
 
     <div class="container container_toggle">
         <div class="row">
@@ -458,14 +370,13 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
                 <div class="inst">
                     <h1 class="inst__title align-center mbr-fonts-style display-2">Свежие новости. Instagram: <a href="https://instagram.com/cni_salon_krasnodar" target="_blank" class="text-black">@cni_salon</a></h1>
                     <div class="inst__content"></div>
-
                 </div>
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
-<section class="mbr-instagram-feed" data-rows="2" data-per-row-slider="" data-spacing="5" data-full-width="" data-token="1266721754.727bfe1.6d48712ab793468e84434f541a9acdbb" data-per-row-grid="4" id="instagram-feed-block-24" data-rv-view="76" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/assets/images/instagram-background.jpg); padding-top: 40px; padding-bottom: 40px;">
+<!--<section class="mbr-instagram-feed" data-rows="2" data-per-row-slider="" data-spacing="5" data-full-width="" data-token="1266721754.727bfe1.6d48712ab793468e84434f541a9acdbb" data-per-row-grid="4" id="instagram-feed-block-24" data-rv-view="76" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/assets/images/instagram-background.jpg); padding-top: 40px; padding-bottom: 40px;">
 
     <div class="container container_toggle">
         <div class="row">
@@ -478,7 +389,7 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <section class="mbr-section mbr-section-hero mbr-section-full header2" id="header2-h" data-rv-view="78" style="background-color: rgb(255, 255, 255);">
 
