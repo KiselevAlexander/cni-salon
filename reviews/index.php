@@ -301,7 +301,7 @@ $APPLICATION->SetTitle("CNI Salon - Отзывы");
 
                         </div>
 
-                        <div><a class="btn btn-primary" href="#">Подробнее</a></div>
+                        <div><a class="btn btn-primary" href="/sterilization/?new=1">Подробнее</a></div>
                     </div>
 
 

@@ -1,0 +1,10 @@
+.square-image {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50%;
+}
+.square-image:before {
+    content: '';
+    padding-top: 100%;
+    display: block;
+}

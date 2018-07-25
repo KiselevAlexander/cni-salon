@@ -27,13 +27,19 @@ $this->setFrameMode(true);
     </div>
 </section>
 
-
 <section class="mbr-gallery mbr-section mbr-section-nopadding mbr-slider-carousel" data-filter="true" id="gallery3-9" data-rv-view="6" style="background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 1.5rem;">
     <!-- Filter -->
     <div class="mbr-gallery-filter container gallery-filter-active gallery-filter__bg">
         <ul>
-            <?foreach ($arResult['SECTIONS'] as $section):?>
-                <li class="mbr-gallery-filter-all active"><?=$section['NAME']?></li>
+            <li
+                    class="mbr-gallery-filter-all"
+            >
+                Все услуги
+            </li>
+            <?foreach ($arResult['SECTIONS'] as $key=>$section):?>
+                <li<?=($key === 0) ? ' class="active"' : ''?>>
+                    <?=$section['NAME']?>
+                </li>
             <?endforeach;?>
         </ul>
     </div>
@@ -41,9 +47,9 @@ $this->setFrameMode(true);
     <!-- Gallery -->
     <div class="mbr-gallery-row container">
         <div class=" mbr-gallery-layout-default">
-
             <?
-            foreach ($arResult['SECTIONS'] as $section):
+            $itemsCounter = 0;
+            foreach ($arResult['SECTIONS'] as $sectionKey => $section):
                 $arSelect = Array(
                     "ID",
                     "NAME",
@@ -51,7 +57,8 @@ $this->setFrameMode(true);
                     "DATE_ACTIVE_FROM",
                     "PROPERTY_PRICE",
                     "PREVIEW_PICTURE",
-                    "DETAIL_PICTURE"
+                    "DETAIL_PICTURE",
+                    "DETAIL_PAGE_URL"
                 );
 
                 $arFilter = Array(
@@ -73,25 +80,60 @@ $this->setFrameMode(true);
                         $element = $ob->GetFields();
                         $previewPicture = CFile::getFileArray($element['PREVIEW_PICTURE']);
 
+                        $arButtons = CIBlock::GetPanelButtons(
+                            $section["IBLOCK_ID"],
+                            $element["ID"],
+                            0,
+                            array("SECTION_BUTTONS"=>false, "SESSID"=>false)
+                        );
+                        $element["EDIT_LINK"] = $arButtons["edit"]["edit_element"]["ACTION_URL"];
+                        $element["DELETE_LINK"] = $arButtons["edit"]["delete_element"]["ACTION_URL"];
+
+                        $this->AddEditAction(
+                            $element['ID'], $element['EDIT_LINK'],
+                            CIBlock::GetArrayByID($section['IBLOCK_ID'], "ELEMENT_EDIT")
+                        );
+                        $this->AddDeleteAction(
+                            $element['ID'],
+                            $element['DELETE_LINK'],
+                            CIBlock::GetArrayByID($section['IBLOCK_ID'], "ELEMENT_DELETE"),
+                            array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM'))
+                        );
                         ?>
-                        <div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Гель-лак">
-                            <div href="#lb-gallery3-9" data-slide-to="0" data-toggle="modal">
+                        <div
+                                class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1<?=($sectionKey !== 0) ? ' mbr-gallery-item__hided' : ''?>"
+                                data-video-url="false"
+                                data-tags="<?=$section['NAME']?>"
+                        >
+                            <div
+                                    id="<?=$this->GetEditAreaId($element['ID']);?>"
+                                    href="#lb-gallery3-9"
+                            >
+                                <a href="<?=$element['DETAIL_PAGE_URL']?>">
+                                    <?if ($previewPicture && $previewPicture['SRC']):?>
+                                        <div
+                                                class="square-image"
+                                                style="background-image: url(<?=$previewPicture['SRC']?>);"
+                                        ></div>
+                                    <?else:?>
+                                        <div
+                                                class="square-image"
+                                                style="background-image: url(
+                                                <?=SITE_TEMPLATE_PATH?>/assets/images/dd6c2c8080347c14b417f15348e98e48b721e1dfad5a1c7d19pimgpsh-fullsize-distr-2000x2000-800x800.jpg
+                                                );"
+                                        ></div>
+                                    <?endif;?>
 
-                                <?if ($previewPicture && $previewPicture['SRC']):?>
-                                    <img src="<?=$previewPicture['SRC']?>">
-                                <?else:?>
-                                    <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/dd6c2c8080347c14b417f15348e98e48b721e1dfad5a1c7d19pimgpsh-fullsize-distr-2000x2000-800x800.jpg">
-                                <?endif;?>
-
-                                <span class="icon-focus"></span>
-                                <span class="mbr-gallery-title">
-                                    <?=$element['NAME']?><br>
-                                    <?=($element['PROPERTY_PRICE_VALUE']) ? $element['PROPERTY_PRICE_VALUE'] : ' - '?> р.
-                                </span>
-
+                                    <span class="icon-focus"></span>
+                                    <span class="mbr-gallery-title">
+                                        <?=$element['NAME']?><br>
+                                        <?=($element['PROPERTY_PRICE_VALUE']) ? $element['PROPERTY_PRICE_VALUE'] : ' - '?> р.
+                                    </span>
+                                </a>
                             </div>
                         </div>
                         <?
+                        $itemsCounter++;
                     }
                     ?>
                 <?
@@ -153,58 +195,3 @@ $this->setFrameMode(true);
         </div>
     </div>
 </section>
-
-<!--
-<div class="dropdown-menu">
-        <?/*
-        foreach ($arResult['SECTIONS'] as $section):
-            */?>
-            <div class="dropdown">
-                <a class="dropdown-item dropdown-toggle" href="manicure.html" data-toggle="dropdown-submenu" aria-expanded="false">
-                    <?/*=$section['NAME']*/?>
-                </a>
-                <?/*
-
-                $arSelect = Array(
-                    "ID",
-                    "NAME",
-                    "CODE",
-                    "DATE_ACTIVE_FROM",
-                    "PROPERTY_PRICE"
-                );
-
-                $arFilter = Array(
-                    "IBLOCK_ID" => $section['IBLOCK_ID'],
-                    "SECTION_ID" => $section['ID'],
-                    "ACTIVE_DATE" => "Y",
-                    "ACTIVE" => "Y"
-                );
-
-                $arOrder = Array(
-                    "PROPERTY_PRICE" => "asc",
-                );
-
-                $res = CIBlockElement::GetList($arOrder, $arFilter, false, Array("nPageSize"=>50), $arSelect);
-                if ($res) {
-                    */?>
-                    <div class="dropdown-menu dropdown-submenu">
-                        <?/*
-
-                        while ($ob = $res->GetNextElement()) {
-                            $element = $ob->GetFields();
-                            */?>
-                            <a class="dropdown-item"
-                               href="/services/<?/*=$section['CODE']*/?>/<?/*= $element['CODE'] */?>/?new=1"
-                            >
-                                <?/*= $element['NAME'] */?>
-                            </a>
-                            <?/*
-                        }
-                        */?>
-                    </div>
-                    <?/*
-                }
-                */?>
-            </div>
-        <?/*endforeach;*/?>
-</div>-->

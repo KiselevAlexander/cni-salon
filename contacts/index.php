@@ -12,6 +12,11 @@ $APPLICATION->SetTitle("CNI Salon - Контакты");
 
 ?>
 
+    <script>
+        function scrollToMap() {
+            $('html').animate({scrollTop: parseInt($('#map1-1c').offset().top, 10) - 58}, 500);
+        }
+    </script>
 
 <section class="mbr-section mbr-after-navbar" id="msg-box5-u" data-rv-view="647" style="background-color: rgb(255, 255, 255); padding-top: 120px; padding-bottom: 0px;">
 
@@ -19,6 +24,8 @@ $APPLICATION->SetTitle("CNI Salon - Контакты");
     <div class="container">
         <div class="row">
             <div class="mbr-table-md-up">
+
+
 
                 <div class="mbr-table-cell col-md-5 text-xs-center text-md-right content-size">
                     <h3 class="mbr-section-title display-2">АДРЕС И ТЕЛЕФОН&nbsp;</h3>
@@ -28,8 +35,18 @@ $APPLICATION->SetTitle("CNI Salon - Контакты");
 
                     </div>
 
-                    <div><a class="btn btn-primary" href="#">На карте</a></div>
+                    <div>
+                        <a
+                                class="btn btn-primary"
+                                href="#"
+                                onclick="scrollToMap()"
+                        >Показать на карте</a>
+                    </div>
                 </div>
+
+
+
+
 
                 <div class="mbr-table-cell mbr-left-padding-md-up mbr-valign-top col-md-7 image-size" style="width: 50%;">
                     <div class="mbr-figure"><img src="<?=SITE_TEMPLATE_PATH?>/assets/images/desktop.jpg"></div>
@@ -60,8 +77,7 @@ $APPLICATION->SetTitle("CNI Salon - Контакты");
                             <span class="icon-focus"></span>
                             <span class="mbr-gallery-title">фото кабинета педикюра</span>
                         </div>
-                    </div>
-                    <div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p0" data-video-url="false" data-tags="Responsive">
+                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p0" data-video-url="false" data-tags="Responsive">
                         <div href="#lb-gallery2-1e" data-slide-to="1" data-toggle="modal">
 
 
@@ -71,8 +87,7 @@ $APPLICATION->SetTitle("CNI Salon - Контакты");
                             <span class="icon-focus"></span>
                             <span class="mbr-gallery-title">Type caption here</span>
                         </div>
-                    </div>
-                    <div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p0" data-video-url="false" data-tags="Creative">
+                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p0" data-video-url="false" data-tags="Creative">
                         <div href="#lb-gallery2-1e" data-slide-to="2" data-toggle="modal">
 
 
@@ -82,8 +97,7 @@ $APPLICATION->SetTitle("CNI Salon - Контакты");
                             <span class="icon-focus"></span>
                             <span class="mbr-gallery-title">Type caption here</span>
                         </div>
-                    </div>
-                    <div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p0" data-video-url="false" data-tags="Animated">
+                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p0" data-video-url="false" data-tags="Animated">
                         <div href="#lb-gallery2-1e" data-slide-to="3" data-toggle="modal">
 
 
@@ -93,8 +107,7 @@ $APPLICATION->SetTitle("CNI Salon - Контакты");
                             <span class="icon-focus"></span>
                             <span class="mbr-gallery-title">Type caption here</span>
                         </div>
-                    </div>
-                    <div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p0" data-video-url="false" data-tags="Awesome">
+                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p0" data-video-url="false" data-tags="Awesome">
                         <div href="#lb-gallery2-1e" data-slide-to="4" data-toggle="modal">
 
 
@@ -104,8 +117,7 @@ $APPLICATION->SetTitle("CNI Salon - Контакты");
                             <span class="icon-focus"></span>
                             <span class="mbr-gallery-title">Type caption here</span>
                         </div>
-                    </div>
-                    <div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p0" data-video-url="false" data-tags="Beautiful">
+                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p0" data-video-url="false" data-tags="Beautiful">
                         <div href="#lb-gallery2-1e" data-slide-to="5" data-toggle="modal">
 
 
@@ -115,8 +127,7 @@ $APPLICATION->SetTitle("CNI Salon - Контакты");
                             <span class="icon-focus"></span>
                             <span class="mbr-gallery-title">Type caption here</span>
                         </div>
-                    </div>
-                    <div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p0" data-video-url="false" data-tags="Responsive">
+                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p0" data-video-url="false" data-tags="Responsive">
                         <div href="#lb-gallery2-1e" data-slide-to="6" data-toggle="modal">
 
 
@@ -126,8 +137,7 @@ $APPLICATION->SetTitle("CNI Salon - Контакты");
                             <span class="icon-focus"></span>
                             <span class="mbr-gallery-title">Type caption here</span>
                         </div>
-                    </div>
-                    <div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p0" data-video-url="false" data-tags="Animated">
+                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p0" data-video-url="false" data-tags="Animated">
                         <div href="#lb-gallery2-1e" data-slide-to="7" data-toggle="modal">
 
 
@@ -191,74 +201,15 @@ $APPLICATION->SetTitle("CNI Salon - Контакты");
 </section>
 
 <section class="mbr-section mbr-section-nopadding" id="map1-1c" data-rv-view="685">
-    <div class="mbr-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0Dx_boXQiwvdz8sJHoYeZNVTdoWONYkU&amp;q=place_id:ChIJn6wOs6lZwokRLKy1iqRcoKw" allowfullscreen=""></iframe></div>
-</section>
-
-<section class="mbr-section form1" id="form1-1d" data-rv-view="687" style="background-color: rgb(255, 255, 255); padding-top: 120px; padding-bottom: 120px;">
-
-    <div class="mbr-section mbr-section__container mbr-section__container--middle">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 text-xs-center">
-                    <h3 class="mbr-section-title display-2">CONTACT FORM</h3>
-                    <small class="mbr-section-subtitle">Shape your future web project with sharp design and refine coded functions.</small>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="mbr-section mbr-section-nopadding">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-lg-10 col-lg-offset-1" data-form-type="formoid">
-
-
-                    <div data-form-alert="true">
-                        <div hidden="" data-form-alert-success="true" class="alert alert-form alert-success text-xs-center">Thanks for filling out form!</div>
-                    </div>
-
-
-                    <form action="#" method="post" data-form-title="CONTACT FORM">
-
-                        <input type="hidden" value="rc5wnEAiS6Y8XZM/N3V3+lsgvq+PiUL3U1CcWqPVisstKc5EBMF8kX1PgKRNaZlO6EHP0W3aFMwQSzMGUJS2scerdWWDNalKpM/32xa0BL2dAJWFj+x6/kPXnYUOS05K" data-form-email="true">
-
-                        <div class="row row-sm-offset">
-
-                            <div class="col-xs-12 col-md-4">
-                                <div class="form-group">
-                                    <label class="form-control-label" for="form1-1d-name">Name<span class="form-asterisk">*</span></label>
-                                    <input type="text" class="form-control" name="name" required="" data-form-field="Name" id="form1-1d-name">
-                                </div>
-                            </div>
-
-                            <div class="col-xs-12 col-md-4">
-                                <div class="form-group">
-                                    <label class="form-control-label" for="form1-1d-email">Email<span class="form-asterisk">*</span></label>
-                                    <input type="email" class="form-control" name="email" required="" data-form-field="Email" id="form1-1d-email">
-                                </div>
-                            </div>
-
-                            <div class="col-xs-12 col-md-4">
-                                <div class="form-group">
-                                    <label class="form-control-label" for="form1-1d-phone">Phone</label>
-                                    <input type="tel" class="form-control" name="phone" data-form-field="Phone" id="form1-1d-phone">
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="form-group">
-                            <label class="form-control-label" for="form1-1d-message">Message</label>
-                            <textarea class="form-control" name="message" rows="7" data-form-field="Message" id="form1-1d-message"></textarea>
-                        </div>
-
-                        <div><button type="submit" class="btn btn-primary">CONTACT US</button></div>
-
-                    </form>
-                </div>
-            </div>
-        </div>
+    <div class="mbr-map">
+        <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0Dx_boXQiwvdz8sJHoYeZNVTdoWONYkU&amp;q=place_id:ChIJ0_-4iHJP8EAR6zGbw30RuVI" allowfullscreen=""></iframe>
     </div>
 </section>
+
+
+
+
+<? require($_SERVER["DOCUMENT_ROOT"] . "/include/contact-form.php"); ?>
 
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

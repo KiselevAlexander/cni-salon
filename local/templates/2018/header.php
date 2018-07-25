@@ -87,7 +87,7 @@
                             </a>
                         </li>
                         <li class="nav-item nav-btn">
-                            <a class="nav-link btn btn-primary" href="/">
+                            <a class="nav-link btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                                 ЗАПИСАТЬСЯ
                             </a>
                         </li>

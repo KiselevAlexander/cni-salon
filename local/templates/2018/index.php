@@ -58,7 +58,10 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
                                         <h2 class="mbr-section-title display-1">12 лучших зимних цветов гель-лаков</h2>
                                         <p class="mbr-section-lead lead">Насладитесь .</p>
 
-                                        <div class="mbr-section-btn"><a class="btn btn-lg btn-info" href="#">FOR WINDOWS</a> <a class="btn btn-lg btn-white btn-white-outline" href="#">FOR MAC</a></div>
+                                        <div class="mbr-section-btn">
+                                            <a class="btn btn-lg btn-info" href="#">Смотреть все</a>
+                                            <a class="btn btn-lg btn-white btn-white-outline" href="#">Записаться</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -197,158 +200,25 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
 
 </section>
 
-<section class="mbr-section mbr-section__container article" id="header3-c" data-rv-view="37" style="background-color: rgb(255, 255, 255); padding-top: 40px; padding-bottom: 20px;">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h3 class="mbr-section-title display-2">Портфолио</h3>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="mbr-gallery mbr-section mbr-section-nopadding mbr-slider-carousel" data-filter="false" id="gallery3-b" data-rv-view="39" style="background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 1.5rem;">
-    <!-- Filter -->
-
-
-    <!-- Gallery -->
-    <div class="mbr-gallery-row container">
-        <div class=" mbr-gallery-layout-default">
-            <div>
-                <div>
-                    <div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Awesome">
-                        <div href="#lb-gallery3-b" data-slide-to="0" data-toggle="modal">
-
-
-
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/2000x2000-800x800-800x800.jpg">
-
-                            <span class="icon-focus"></span>
-
-                        </div>
-                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Responsive">
-                        <div href="#lb-gallery3-b" data-slide-to="1" data-toggle="modal">
-
-
-
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/cniart-instagram-google-chrome-2000x2006-800x802-800x802.jpg">
-
-                            <span class="icon-focus"></span>
-
-                        </div>
-                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Creative">
-                        <div href="#lb-gallery3-b" data-slide-to="2" data-toggle="modal">
-
-
-
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/a2oss-cagai-2000x2000-800x800.jpg">
-
-                            <span class="icon-focus"></span>
-
-                        </div>
-                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Animated">
-                        <div href="#lb-gallery3-b" data-slide-to="3" data-toggle="modal">
-
-
-
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/1e1b410633a1ffe3c1530e0781652d969dd8184b1c7aae2323pimgpsh-fullsize-distr-2000x2000-800x800.jpg">
-
-                            <span class="icon-focus"></span>
-
-                        </div>
-                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Awesome">
-                        <div href="#lb-gallery3-b" data-slide-to="4" data-toggle="modal">
-
-
-
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/cni-2000x2000-800x800.jpg">
-
-                            <span class="icon-focus"></span>
-
-                        </div>
-                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Beautiful">
-                        <div href="#lb-gallery3-b" data-slide-to="5" data-toggle="modal">
-
-
-
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/2000x2000-800x800.jpg">
-
-                            <span class="icon-focus"></span>
-
-                        </div>
-                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Responsive">
-                        <div href="#lb-gallery3-b" data-slide-to="6" data-toggle="modal">
-
-
-
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/mix-lamp-2000x2000-800x800.jpg">
-
-                            <span class="icon-focus"></span>
-
-                        </div>
-                    </div><div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Animated">
-                        <div href="#lb-gallery3-b" data-slide-to="7" data-toggle="modal">
-
-
-
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/cni-2000x2000-800x800.jpg">
-
-                            <span class="icon-focus"></span>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-
-    <!-- Lightbox -->
-    <div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery3-b">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <ol class="carousel-indicators">
-                        <li data-app-prevent-settings="" data-target="#lb-gallery3-b" data-slide-to="0"></li><li data-app-prevent-settings="" data-target="#lb-gallery3-b" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#lb-gallery3-b" data-slide-to="2"></li><li data-app-prevent-settings="" data-target="#lb-gallery3-b" data-slide-to="3"></li><li data-app-prevent-settings="" data-target="#lb-gallery3-b" data-slide-to="4"></li><li data-app-prevent-settings="" data-target="#lb-gallery3-b" data-slide-to="5"></li><li data-app-prevent-settings="" data-target="#lb-gallery3-b" data-slide-to="6"></li><li data-app-prevent-settings="" data-target="#lb-gallery3-b" class=" active" data-slide-to="7"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item">
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/2000x2000-800x800.jpg">
-                        </div><div class="carousel-item">
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/cniart-instagram-google-chrome-2000x2006-800x802.jpg">
-                        </div><div class="carousel-item">
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/a2oss-cagai-2000x2000.jpg">
-                        </div><div class="carousel-item">
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/1e1b410633a1ffe3c1530e0781652d969dd8184b1c7aae2323pimgpsh-fullsize-distr-2000x2000.jpg">
-                        </div><div class="carousel-item">
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/-cni-2000x2000.jpg">
-                        </div><div class="carousel-item">
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/-2000x200092.jpg">
-                        </div><div class="carousel-item">
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/mix-lamp-2000x2000.jpg">
-                        </div><div class="carousel-item active">
-                            <img src="<?=SITE_TEMPLATE_PATH?>/assets/images/-cni-2000x2000.jpg">
-                        </div>
-                    </div>
-                    <a class="left carousel-control" role="button" data-slide="prev" href="#lb-gallery3-b">
-                        <span class="icon-prev" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" role="button" data-slide="next" href="#lb-gallery3-b">
-                        <span class="icon-next" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-
-                    <a class="close" href="#" role="button" data-dismiss="modal">
-                        <span aria-hidden="true">×</span>
-                        <span class="sr-only">Close</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?$APPLICATION->IncludeComponent(
+    "bitrix:news.list",
+    "portfolio",
+    array(
+        "ADD_SECTIONS_CHAIN" => "Y",
+        "CACHE_GROUPS" => "Y",
+        "CACHE_TIME" => "36000000",
+        "CACHE_TYPE" => "A",
+        "COUNT_ELEMENTS" => "Y",
+        "IBLOCK_ID" => "11",
+        "IBLOCK_TYPE" => "GALLERY",
+        "FIELD_CODE" => array("DETAIL_PICTURE", ""),
+        "SHOW_PARENT_NAME" => "Y",
+        "TOP_DEPTH" => "2",
+        "VIEW_MODE" => "LINE",
+        "COMPONENT_TEMPLATE" => "services_grid"
+    ),
+    false
+);?>
 
 <!--<section class="mbr-section mbr-section__container" id="buttons1-d" data-rv-view="150" style="background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;">
 
@@ -402,9 +272,6 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
                 <div class="mbr-section row">
                     <div class="mbr-table-md-up">
 
-
-
-
                         <div class="mbr-table-cell col-md-5 content-size text-xs-center text-md-right">
 
                             <h3 class="mbr-section-title display-2">Почему вы любите CNI-salon?</h3>
@@ -417,7 +284,16 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
 
                         </div>
                         <div class="mbr-table-cell mbr-valign-top mbr-left-padding-md-up col-md-7 image-size" style="width: 50%;">
-                            <div class="mbr-figure"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/bamWQHHHsS0?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=1&amp;playlist=bamWQHHHsS0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+                            <div class="mbr-figure">
+                                <iframe
+                                        class="mbr-embedded-video"
+                                        src="https://www.youtube.com/embed/bamWQHHHsS0?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=1&amp;playlist=bamWQHHHsS0"
+                                        width="1280"
+                                        height="720"
+                                        frameborder="0"
+                                        allowfullscreen
+                                ></iframe>
+                            </div>
                         </div>
 
                     </div>
@@ -438,10 +314,11 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
 
             <div class="mbr-footer-content col-xs-12 col-md-3">
                 <p>
-                    <strong>Address</strong><br>
+                    <strong>Контакты</strong><br>
                     ул. Северная, 225, г. Краснодар<br>(ФМР, пересечение ул. Северной / Тургенева)<br><br><br>
                     <strong>Contacts</strong><br>
-                    Телефон: +7 (861) 205-10-40<br>Мобильный: +7 (966) 740-74-60<br>
+                    Телефон: +7 (861) 205-10-40<br>
+                    Мобильный: +7 (966) 740-74-60<br>
                     Работаем ежедневно с 10:00 до 20:00<br>
                     Есть парковка (заезд с ул. Артилерийской)
                 </p>
@@ -449,13 +326,13 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
 
             <div class="mbr-footer-content col-xs-12 col-md-3">
                 <p class="mbr-contacts__text">
-                    <strong>Links</strong>
+                    <strong>Ссылки</strong>
                 </p>
                 <ul>
                     <li>Прайс-лист</li>
-                    <li>Услуги</li>
-                    <li><a class="text-white" href="#/mobirise-free-mac.zip">О</a>тзывы</li>
-                    <li>Инстаграм</li>
+                    <li><a class="text-white" href="/services/">Услуги</a></li>
+                    <li><a class="text-white" href="/reviews/">Отзывы</a></li>
+                    <li><a class="text-white" href="https://www.instagram.com/cni_salon_krasnodar/" target="_blank">Инстаграм</a></li>
                 </ul>
             </div>
 
