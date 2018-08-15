@@ -28,7 +28,7 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
                                         <h2 class="mbr-section-title display-1"><p>CNI Salon</p></h2>
                                         <p class="mbr-section-lead lead">Крупнейший в краснодаре ногтевой салон. <br>Эталонный маникюр и педикюр, шугаринг, услуги Browbar и Перманентный макияж с первоклассным сервисом.<br></p>
 
-                                        <div class="mbr-section-btn"><a class="btn btn-lg btn-success" href="#">записаться</a> </div>
+                                        <div class="mbr-section-btn"><a class="btn btn-lg btn-success" href="#"  data-toggle="modal" data-target="#orderModal">записаться</a> </div>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
                                         <h2 class="mbr-section-title display-1">BROWBAR в подарок</h2>
                                         <p class="mbr-section-lead lead">Участвуйте в супер-акции. До конца ноября сделайте маникюр гель-лак или гель + педикюр и получите любую из услуг Browbar в подарок.</p>
 
-                                        <div class="mbr-section-btn"><a class="btn btn-lg btn-primary" href="#">записаться на процедуру</a> </div>
+                                        <div class="mbr-section-btn"><a class="btn btn-lg btn-primary" href="#"  data-toggle="modal" data-target="#orderModal">записаться на процедуру</a> </div>
                                     </div>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
 
                                         <div class="mbr-section-btn">
                                             <a class="btn btn-lg btn-info" href="#">Смотреть все</a>
-                                            <a class="btn btn-lg btn-white btn-white-outline" href="#">Записаться</a>
+                                            <a class="btn btn-lg btn-white btn-white-outline" href="#" data-toggle="modal" data-target="#orderModal">Записаться</a>
                                         </div>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
                                         <h2 class="mbr-section-title display-1"><p>CNI Salon</p></h2>
                                         <p class="mbr-section-lead lead">Маникюр гель-лак, укрепление и наращивание ногтей только на материалах CNI. Премиум-качество, безопасность для ногтей, авторские методики по созданию вашего идеального маникюра.</p>
 
-                                        <div class="mbr-section-btn"><a class="btn btn-lg btn-success" href="#">записаться</a> </div>
+                                        <div class="mbr-section-btn"><a class="btn btn-lg btn-success" href="#" data-toggle="modal" data-target="#orderModal">записаться</a> </div>
                                     </div>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
                                         <h2 class="mbr-section-title display-1"><p>CNI Salon</p></h2>
                                         <p class="mbr-section-lead lead">- всё для того, чтобы подчеркнуть вашу уникальность.</p>
 
-                                        <div class="mbr-section-btn"><a class="btn btn-lg btn-success" href="#">записаться</a> </div>
+                                        <div class="mbr-section-btn"><a class="btn btn-lg btn-success" href="#" data-toggle="modal" data-target="#orderModal">записаться</a> </div>
                                     </div>
                                 </div>
                             </div>
@@ -106,7 +106,7 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
                                         <h2 class="mbr-section-title display-1"><p>CNI Salon</p></h2>
                                         <p class="mbr-section-lead lead">Крупнейший в краснодаре ногтевой салон. <br>Эталонный маникюр и педикюр, шугаринг, услуги Browbar и Перманентный макияж с первоклассным сервисом.<br>Премиум-бренд для ногтей собственного производства и авторские методики - всё для того, чтобы подчеркнуть вашу уникальность.</p>
 
-                                        <div class="mbr-section-btn"><a class="btn btn-lg btn-success" href="#">записаться</a> </div>
+                                        <div class="mbr-section-btn"><a class="btn btn-lg btn-success" href="#" data-toggle="modal" data-target="#orderModal">записаться</a> </div>
                                     </div>
                                 </div>
                             </div>
@@ -280,7 +280,7 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
                                 <p>Идеальный маникюр, за которым хочется возвращаться<br>Атмосфера заботы, уюта и красоты<br>Премиум-качество за доступную цену<br>Безопасные материалы и медицинская стерилизация<br>Профессиональный умный подход мастеров<br>Постоянные сюрпризы и мероприятия для гостей.</p>
                             </div>
 
-                            <div class="mbr-section-btn"><a class="btn btn-primary" href="#">записаться на процедуру</a></div>
+                            <div class="mbr-section-btn"><a class="btn btn-primary" href="#" data-toggle="modal" data-target="#orderModal">записаться на процедуру</a></div>
 
                         </div>
                         <div class="mbr-table-cell mbr-valign-top mbr-left-padding-md-up col-md-7 image-size" style="width: 50%;">
@@ -314,12 +314,29 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
 
             <div class="mbr-footer-content col-xs-12 col-md-3">
                 <p>
+                    <strong>Адрес</strong><br>
+                    <?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
+                        "AREA_FILE_SHOW" => "file",
+                        "PATH" => "/local/templates/2018/includes/main_page_action/address.php",
+                        "EDIT_TEMPLATE" => ""
+                    ),
+                        false
+                    );?><br><br><br>
                     <strong>Контакты</strong><br>
-                    ул. Северная, 225, г. Краснодар<br>(ФМР, пересечение ул. Северной / Тургенева)<br><br><br>
-                    <strong>Contacts</strong><br>
-                    Телефон: +7 (861) 205-10-40<br>
-                    Мобильный: +7 (966) 740-74-60<br>
-                    Работаем ежедневно с 10:00 до 20:00<br>
+                    Телефон: <?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
+                        "AREA_FILE_SHOW" => "file",
+                        "PATH" => "/local/templates/2018/includes/main_page_action/phone.php",
+                        "EDIT_TEMPLATE" => ""
+                    ),
+                        false
+                    );?><br>
+                    Работаем ежедневно <?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
+                        "AREA_FILE_SHOW" => "file",
+                        "PATH" => "/local/templates/2018/includes/main_page_action/worktime.php",
+                        "EDIT_TEMPLATE" => ""
+                    ),
+                        false
+                    );?><br>
                     Есть парковка (заезд с ул. Артилерийской)
                 </p>
             </div>
@@ -346,30 +363,10 @@ $APPLICATION->SetTitle("CNI-salon Краснодар - первая специа
     </div>
 </section>
 
-<section class="mbr-section mbr-section-md-padding" id="social-buttons3-25" data-rv-view="154" style="background-color: rgb(46, 46, 46); padding-top: 90px; padding-bottom: 90px;">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-xs-center">
-                <h3 class="mbr-section-title display-2">ПРИСОЕДИНЯЙТЕСЬ К НАМ В СОЦ.СЕТЯХ</h3>
-                <div>
-
-                    <div class="mbr-social-likes" data-counters="false">
-                    <span class="btn btn-social facebook" title="Share link on Facebook">
-                        <i class="socicon socicon-facebook"></i>
-                    </span>
-                        <span class="btn btn-social twitter" title="Share link on Twitter">
-                        <i class="socicon socicon-twitter"></i>
-                    </span>
-                        <span class="btn btn-social plusone" title="Share link on Google+">
-                        <i class="socicon socicon-googleplus"></i>
-                    </span>
-
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
+    "AREA_FILE_SHOW" => "file",
+    "PATH" => "/local/templates/2018/includes/social-networks.php",
+    "EDIT_TEMPLATE" => ""
+),
+    false
+);?>

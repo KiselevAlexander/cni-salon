@@ -54,7 +54,7 @@
                     <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar">
                         <li class="nav-item dropdown">
                             <a class="nav-link link dropdown-toggle" href="/" data-toggle="dropdown-submenu" aria-expanded="false">
-                                УСЛУГИ И&nbsp;ЦЕНЫ
+                                УСЛУГИ
                             </a>
                             <?$APPLICATION->IncludeComponent(
                                 "bitrix:catalog.section.list",
@@ -77,6 +77,11 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link link" href="/prices/">
+                                ЦЕНЫ
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link link" href="/reviews/?new=1">
                                 ОТЗЫВЫ И&nbsp;МАСТЕРА
                             </a>
@@ -87,7 +92,7 @@
                             </a>
                         </li>
                         <li class="nav-item nav-btn">
-                            <a class="nav-link btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            <a class="nav-link btn btn-primary" data-toggle="modal" data-target="#orderModal">
                                 ЗАПИСАТЬСЯ
                             </a>
                         </li>

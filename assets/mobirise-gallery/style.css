@@ -73,6 +73,8 @@
   opacity: 0;
   -webkit-transition: .2s opacity ease-in-out;
   transition: .2s opacity ease-in-out;
+  pointer-events: none;
+
 }
 
 .mbr-gallery .mbr-gallery-item:hover> div::before {

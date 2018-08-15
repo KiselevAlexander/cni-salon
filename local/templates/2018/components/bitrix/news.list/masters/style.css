@@ -1,12 +1,17 @@
-div.news-list
-{
-	word-wrap: break-word;
+.masters {
+
 }
-div.news-list img.preview_picture
-{
-	float:left;
-	margin:0 4px 6px 0;
+
+.masters-item {
+	margin-bottom: 1em;
 }
-.news-date-time {
-	color:#486DAA;
+
+.masters-description-text {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height .3s;
+}
+
+.masters-item:hover .masters-description-text {
+	max-height: 100px;
 }

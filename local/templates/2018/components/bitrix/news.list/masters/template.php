@@ -33,7 +33,7 @@ $this->setFrameMode(true);
 
 
 <section
-        class="mbr-gallery mbr-section mbr-section-nopadding mbr-slider-carousel"
+        class="mbr-gallery mbr-section mbr-section-nopadding mbr-slider-carousel masters"
         data-filter="false"
         id="masters-gallery"
         data-rv-view="355"
@@ -42,7 +42,7 @@ $this->setFrameMode(true);
     <div class="mbr-gallery-row container">
         <div class="mbr-gallery-layout-default">
             <div>
-                <div>
+                <div class="row">
                     <?foreach($arResult["ITEMS"] as $key=>$arItem):?>
                         <?
                         $this->AddEditAction(
@@ -56,88 +56,28 @@ $this->setFrameMode(true);
                                 array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM'))
                         );
                         ?>
-                        <div
-                                id="<?=$this->GetEditAreaId($arItem['ID']);?>"
-                                class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p0"
-                                data-video-url="false"
-                                data-tags="Awesome"
-                                style="float: left;display: block;"
+                        <div id="<?=$this->GetEditAreaId($arItem['ID']);?>"
+                             class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masters-item"
                         >
-                            <div
-                                    href="#lb-masters-gallery"
-                                    data-slide-to="<?=$key?>"
-                                    data-toggle="modal"
-                            >
-                                <img
-                                        border="0"
-                                        src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>"
-                                        alt="<?=$arItem["PREVIEW_PICTURE"]["ALT"]?>"
-                                        title="<?=$arItem["PREVIEW_PICTURE"]["TITLE"]?>"
-                                />
-
+                            <div class="masters-description">
+                                <div class="square-image"
+                                     style="background-image: url(<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>);"
+                                     title="<?=$arItem["PREVIEW_PICTURE"]["TITLE"]?>"
+                                >
+                                </div>
                                 <span class="icon-focus"></span>
-                                <span class="mbr-gallery-title">
+                                <div class="mbr-gallery-title">
                                     <b><?=$arItem["NAME"]?></b><br>
                                     <?if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arItem["PREVIEW_TEXT"]):?>
-                                        <?echo $arItem["PREVIEW_TEXT"];?>
+                                        <div class="masters-description-text">
+                                            <?echo $arItem["PREVIEW_TEXT"];?>
+                                        </div>
                                     <?endif;?>
-                                </span>
+                                </div>
                             </div>
                         </div>
 
                     <?endforeach;?>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Lightbox -->
-    <div
-            data-app-prevent-settings=""
-            class="mbr-slider modal fade carousel slide"
-            tabindex="-1"
-            data-keyboard="true"
-            data-interval="false"
-            id="lb-masters-gallery"
-    >
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <ol class="carousel-indicators">
-                        <?foreach($arResult["ITEMS"] as $key=>$arItem):?>
-                            <?
-                            $class = ($key === 0) ? ' class="active"' : '';
-                            ?>
-                            <li<?=$class?> data-app-prevent-settings="" data-target="#lb-masters-gallery" data-slide-to="<?=$key?>"></li>
-                        <?endforeach;?>
-                    </ol>
-                    <div class="carousel-inner">
-                        <?foreach($arResult["ITEMS"] as $key=>$arItem):?>
-                            <?
-                            $class = ($key === 0) ? ' active' : '';
-                            ?>
-
-                            <div class="carousel-item<?=$class?>">
-                                <img
-                                        src="<?=$arItem["DETAIL_PICTURE"]["SRC"]?>"
-                                        alt="<?=$arItem["DETAIL_PICTURE"]["ALT"]?>"
-                                        title="<?=$arItem["DETAIL_PICTURE"]["TITLE"]?>"
-                                />
-                            </div>
-                        <?endforeach;?>
-                    </div>
-                    <a class="left carousel-control" role="button" data-slide="prev" href="#lb-masters-gallery">
-                        <span class="icon-prev" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" role="button" data-slide="next" href="#lb-masters-gallery">
-                        <span class="icon-next" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-
-                    <a class="close" href="#" role="button" data-dismiss="modal">
-                        <span aria-hidden="true">×</span>
-                        <span class="sr-only">Close</span>
-                    </a>
                 </div>
             </div>
         </div>

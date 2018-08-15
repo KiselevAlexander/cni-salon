@@ -119,11 +119,11 @@ $APPLICATION->SetTitle("CNI Salon - Отзывы");
                             </div>
 
                             <div class="form-group">
-                                <label class="form-control-label" for="form1-1w-message">Message</label>
+                                <label class="form-control-label" for="form1-1w-message">Текст отзыва</label>
                                 <textarea class="form-control" name="message" rows="7" data-form-field="Message" id="form1-1w-message"></textarea>
                             </div>
 
-                            <div><button type="submit" class="btn btn-primary">CONTACT US</button></div>
+                            <div><button type="submit" class="btn btn-primary">Отправить</button></div>
 
                         </form>
                     </div>
@@ -253,70 +253,13 @@ $APPLICATION->SetTitle("CNI Salon - Отзывы");
         </div>
     </section>
 
-    <section class="mbr-section mbr-section-md-padding" id="social-buttons3-29" data-rv-view="457" style="background-color: rgb(46, 46, 46); padding-top: 90px; padding-bottom: 90px;">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-xs-center">
-                    <h3 class="mbr-section-title display-2">ПРИСОЕДИНЯЙТЕСЬ К НАМ В СОЦ.СЕТЯХ</h3>
-                    <div>
-
-                        <div class="mbr-social-likes" data-counters="false">
-                    <span class="btn btn-social facebook" title="Share link on Facebook">
-                        <i class="socicon socicon-facebook"></i>
-                    </span>
-                            <span class="btn btn-social twitter" title="Share link on Twitter">
-                        <i class="socicon socicon-twitter"></i>
-                    </span>
-                            <span class="btn btn-social plusone" title="Share link on Google+">
-                        <i class="socicon socicon-googleplus"></i>
-                    </span>
-
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="mbr-section" id="msg-box5-1k" data-rv-view="454" style="background-color: rgb(255, 255, 255); padding-top: 80px; padding-bottom: 0px;">
-
-
-        <div class="container">
-            <div class="row">
-                <div class="mbr-table-md-up">
-
-
-
-                    <div class="mbr-table-cell col-md-5 text-xs-center text-md-right content-size">
-                        <h3 class="mbr-section-title display-2">ЭТАПЫ СТЕРИЛИЗАЦИИ</h3>
-                        <div class="lead">
-
-                            <p><br>✅Перед началом стерилизации каждое изделие запечатывается в индивидуальный крафт пакет, после чего он отправляется в сухожаровой шкаф. <br>✅Под воздействием раскаленной температуры происходит 100% гибель всех клеток бактерий, грибков и вирусов при средней температуре 180 градусов на протяжении 2 часов.
-                                <br>✅На 2м этапе металлические предметы отправляются в микроцидный стерилизатор. За 3 минуты обработки под действием ультрафиолетового облучения вирусы гепатита, гриппа, кори, краснухи, полиомиелита, туберкулеза, стафилококки, кишечная палочка, СПИДа, &nbsp;а также их споровые формы и грибковая флора полностью инактивируются.
-                                <br>
-                                ✅В крафт-пакете инструмент многоразового использования попадает на стол мастера и вскрывается в присутствии клиента перед началом процедуры.<br>Мы думаем и заботимся о Вашей безопасности.💯 <br>Выбирая нас, Вы выбираете здоровье.🙏.</p>
-
-                        </div>
-
-                        <div><a class="btn btn-primary" href="/sterilization/?new=1">Подробнее</a></div>
-                    </div>
-
-
-
-
-
-                    <div class="mbr-table-cell mbr-left-padding-md-up mbr-valign-top col-md-7 image-size" style="width: 50%;">
-                        <div class="mbr-figure"><img src="<?=SITE_TEMPLATE_PATH?>/assets/images/-2-591x333.jpg" alt="Инструмент в крафт-пакетах на столе мастера" title="Инструмент в крафт-пакетах на столе мастера"></div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </section>
-
     </div>
+
+<?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
+    "AREA_FILE_SHOW" => "file",
+    "PATH" => "/local/templates/2018/includes/social-networks.php",
+    "EDIT_TEMPLATE" => ""
+),
+    false
+);?>
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

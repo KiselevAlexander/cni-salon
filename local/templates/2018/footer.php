@@ -6,19 +6,13 @@
     </div>
 </footer>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <? require($_SERVER["DOCUMENT_ROOT"] . "/include/contact-form.php"); ?>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
-            </div>
-        </div>
-    </div>
-</div>
+<?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
+    "AREA_FILE_SHOW" => "file",
+    "PATH" => "/local/templates/2018/includes/lead-modal.php",
+    "EDIT_TEMPLATE" => ""
+),
+    false
+);?>
 
 
 <script src="<?=SITE_TEMPLATE_PATH?>/assets/web/assets/jquery/jquery.min.js"></script>
