@@ -13,129 +13,151 @@
 $this->setFrameMode(true);
 ?>
 
-<div class="banner <?if(!is_array($arResult["DETAIL_PICTURE"])){ echo('servicesBanner');}?>"<?if(is_array($arResult["DETAIL_PICTURE"])) {echo 'style="
-    background: url('.$arResult["DETAIL_PICTURE"]["SRC"].') no-repeat;
-    background-size: cover;"';}?>>
-	<div class="banner-in">
-		<div class="offer">
-			<p class="offer1">УСЛУГИ / <?=$arResult["SECTION"]["PATH"][0]["NAME"]?></p>
-			<!--<p class="offer2"><span><?=$arResult["NAME"]?></span><br></p>-->
-			<h1 class="offer2"><span><?=$arResult["NAME"]?></span><br></h1>
-			<p class="offer3" style="color:#fff; font-size:18px;    padding: 10px 0;"><span><?echo $arResult["PREVIEW_TEXT"];?></span></p>
-			<!-- <p class="offer-prices">1520р <span class="colors">1000<span class="ru">&#8381;</span></span></p> -->
-			<a href="#openModal"><input class="mob submit_upload" type="submit" value="Записаться"></a>
-		</div>
-		<div class="banner-form">
-			 <?$APPLICATION->IncludeComponent(
-	"bitrix:main.include",
-	".default",
-	Array(
-		"AREA_FILE_SHOW" => "file",
-		"EDIT_TEMPLATE" => "",
-		"PATH" => "/include/form.php"
-	)
-);?>
-		</div>
-	</div>
-</div>
-<div class="service-title services-page-title" style="background:none;">
-	<!--<h2 style="color:#7e7d9c;">Описание<br>
-	 услуги</h2>-->
-	<div class="h2" style="color:#7e7d9c;">Описание<br>
-	 услуги</div>
-</div>
-<div class="services-body text-page page-body">
-	<div class="text-container" style="">
-		<div class="right-col" style="padding: 40px 0 0 0;">
-			<?echo $arResult["DETAIL_TEXT"];?>
-		</div>
-		<div class="container-icon left-col">
-			<!-- <div class="icon icon-item"> -->
-				<!-- <div class="icon-img" style="background: url(/bitrix/templates/salon/img/services-icon1.png) no-repeat center center;"> -->
-					 <!-- <img src="/bitrix/templates/salon/img/services-icon1.png"> -->
-				<!-- </div> -->
-				<!-- <div class="icon-name"> -->
-					 <?//=$arResult["DISPLAY_PROPERTIES"]["VARNISH"]["DISPLAY_VALUE"]?>
-				<!-- </div> -->
-			<!-- </div> -->
-			<div class="icon icon-item">
-				<div class="icon-img" style="background: url(/bitrix/templates/salon/img/services-icon2.png) no-repeat center center;">
-					 <!-- <img src="/bitrix/templates/salon/img/services-icon2.png"> -->
-				</div>
-				<div class="icon-name">
-					 <?=$arResult["DISPLAY_PROPERTIES"]["TIME"]["DISPLAY_VALUE"]?> мин
-				</div>
-			</div>
-			<div class="icon icon-item">
-				<div class="icon-img" style="background: url(/bitrix/templates/salon/img/services-icon3.png) no-repeat center center;">
-					 <!-- <img src="/bitrix/templates/salon/img/services-icon3.png"> -->
-				</div>
-				<div class="icon-name">
-					 <?=$arResult["DISPLAY_PROPERTIES"]["PRICE"]["DISPLAY_VALUE"]?> руб
-					<!--<div class="dop-text-icon">
-						 (Стоимость без дизайна)
-					</div> -->
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="form2">
-		 <?$APPLICATION->IncludeComponent(
-	"bitrix:main.include",
-	".default",
-	Array(
-		"AREA_FILE_SHOW" => "file",
-		"EDIT_TEMPLATE" => "",
-		"PATH" => "/include/form2.php"
-	)
-);?>
-	</div>
-</div>
-<?if(is_array($arResult["DISPLAY_PROPERTIES"]["GALLERY"])):?>
-<div class="last-arb">
-	<div class="last-items">
-		<?foreach($arResult["DISPLAY_PROPERTIES"]["GALLERY"]["FILE_VALUE"] as $pic):?>
-		<div class="last-item m-links">
-			<div class="item-image ">
-				<a href="<?=$pic["SRC"]?>" data-lightbox="gallery-last"><img src="<?=$pic["SRC"]?>"></a>
-			</div>
-		</div>
-		<?endforeach;?>
-		
-	</div>
-</div>
+<section class="mbr-section mbr-section__container article mbr-after-navbar" id="header3-31" data-rv-view="294" style="background-color: rgb(255, 255, 255); padding-top: 120px; padding-bottom: 20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-xs-center">
+                <h1 class="mbr-section-title display-2">
+                    <?=$arResult["NAME"]?>
+                </h1>
+                <small class="mbr-section-subtitle">
+                    Студия красоты "CNI-салон Краснодар"
+                </small>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?if(is_array($arResult["DISPLAY_PROPERTIES"]["GALLERY"])):
+    $gallery = $arResult["DISPLAY_PROPERTIES"]["GALLERY"]["FILE_VALUE"];
+    ?>
+
+
+    <section class="mbr-gallery mbr-section mbr-section-nopadding mbr-slider-carousel" data-filter="false" id="gallery3-38" data-rv-view="341" style="background-color: rgb(0, 0, 0); padding-top: 1.5rem; padding-bottom: 1.5rem;">
+        <!-- Filter -->
+
+
+        <!-- Gallery -->
+        <div class="mbr-gallery-row container">
+            <div class=" mbr-gallery-layout-default">
+                <div>
+                    <div>
+                        <?foreach($gallery as $key=>$pic):
+                            $file = CFile::ResizeImageGet(
+                                $pic,
+                                ['width'=>300, 'height'=>300],
+                                BX_RESIZE_IMAGE_PROPORTIONAL,
+                                true
+                            );
+                            ?>
+                            <div class="mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p1" data-video-url="false" data-tags="Awesome">
+                                <div href="#lb-gallery3-38" data-slide-to="<?=$key?>" data-toggle="modal">
+                                    <img src="<?=$file['src']?>" alt="" title="">
+                                    <span class="icon-focus"></span>
+                                </div>
+                            </div>
+                        <?endforeach;?>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <!-- Lightbox -->
+        <div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery3-38">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <ol class="carousel-indicators">
+                            <?foreach($gallery as $key=>$pic):
+                                $isActive = $key == 0 ? 'class="active"' : '';
+                                ?>
+                                <li data-app-prevent-settings=""
+                                    data-target="#lb-gallery3-38"
+                                    data-slide-to="<?=$key?>"
+                                    <?=$isActive?>
+                                ></li>
+                            <?endforeach;?>
+                        </ol>
+                        <div class="carousel-inner">
+
+                            <?foreach($gallery as $key=>$pic):
+                                $isActive = $key == 0 ? ' active' : '';
+                                ?>
+                                <div class="carousel-item<?=$isActive?>">
+                                    <img src="<?=$pic['SRC']?>" alt="" title="">
+                                </div>
+                            <?endforeach;?>
+
+                        </div>
+                        <a class="left carousel-control" role="button" data-slide="prev" href="#lb-gallery3-38">
+                            <span class="icon-prev" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" role="button" data-slide="next" href="#lb-gallery3-38">
+                            <span class="icon-next" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                        <a class="close" href="#" role="button" data-dismiss="modal">
+                            <span aria-hidden="true">×</span>
+                            <span class="sr-only">Close</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <?endif;?>
-	<?$APPLICATION->IncludeComponent(
-	"bitrix:menu",
-	"service_menu",
-	Array(
-		"ALLOW_MULTI_SELECT" => "N",
-		"CHILD_MENU_TYPE" => "service",
-		"COMPONENT_TEMPLATE" => "horizontal_multilevel",
-		"DELAY" => "N",
-		"MAX_LEVEL" => "3",
-		"MENU_CACHE_GET_VARS" => "",
-		"MENU_CACHE_TIME" => "3600",
-		"MENU_CACHE_TYPE" => "N",
-		"MENU_CACHE_USE_GROUPS" => "Y",
-		"MENU_THEME" => "site",
-		"ROOT_MENU_TYPE" => "service",
-		"USE_EXT" => "Y"
-	)
-);?> 
-<div class="form2">
-	 <?$APPLICATION->IncludeComponent(
-	"bitrix:main.include",
-	".default",
-	Array(
-		"AREA_FILE_SHOW" => "file",
-		"EDIT_TEMPLATE" => "",
-		"PATH" => "/include/form2.php"
-	)
+
+<section class="mbr-section article mbr-section__container" id="content1-35" data-rv-view="327" style="background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 lead">
+                <?if ($arResult["DISPLAY_PROPERTIES"]["MATERIAL"]["DISPLAY_VALUE"]):?>
+                    <p class="mb-30"><strong><?=$arResult["DISPLAY_PROPERTIES"]["MATERIAL"]["DISPLAY_VALUE"]?></strong></p>
+                <?endif;?>
+
+
+                <?if ($arResult["DISPLAY_PROPERTIES"]["TIME"]["DISPLAY_VALUE"]):?>
+                    <p><strong>Время процедуры:</strong> <?=$arResult["DISPLAY_PROPERTIES"]["TIME"]["DISPLAY_VALUE"]?> мин.</p>
+                <?endif;?>
+                <?if ($arResult["DISPLAY_PROPERTIES"]["TYPE"]["DISPLAY_VALUE"]):?>
+                    <p><strong>Тип ногтей: </strong> <?=$arResult["DISPLAY_PROPERTIES"]["TYPE"]["DISPLAY_VALUE"]?></p>
+                <?endif;?>
+                <?if ($arResult["DISPLAY_PROPERTIES"]["ELONGATION"]["DISPLAY_VALUE"]):?>
+                    <p><strong>Удлинение: </strong> <?=$arResult["DISPLAY_PROPERTIES"]["ELONGATION"]["DISPLAY_VALUE"]?></p>
+                <?endif;?>
+                <?if ($arResult["DISPLAY_PROPERTIES"]["PERIOD"]["DISPLAY_VALUE"]):?>
+                    <p><strong>Срок носки маникюра: </strong> <?=$arResult["DISPLAY_PROPERTIES"]["PERIOD"]["DISPLAY_VALUE"]?></p>
+                <?endif;?>
+                <?if ($arResult["DISPLAY_PROPERTIES"]["WARRANTY"]["DISPLAY_VALUE"]):?>
+                    <p><strong>Гарантийный ремонт:</strong> <?=$arResult["DISPLAY_PROPERTIES"]["WARRANTY"]["DISPLAY_VALUE"]?></p>
+                <?endif;?>
+                <?if ($arResult["DISPLAY_PROPERTIES"]["REMOVAL"]["DISPLAY_VALUE"]):?>
+                    <p><strong>Снятие гель-лака/геля: </strong> <?=$arResult["DISPLAY_PROPERTIES"]["REMOVAL"]["DISPLAY_VALUE"]?></p>
+                <?endif;?>
+                <?if ($arResult["DISPLAY_PROPERTIES"]["PRICE"]["DISPLAY_VALUE"]):?>
+                    <p><strong>Цена: </strong> <?=$arResult["DISPLAY_PROPERTIES"]["PRICE"]["DISPLAY_VALUE"]?> р.</p>
+                <?endif;?>
+
+                <p class="mt-30"><?=$arResult["DETAIL_TEXT"];?></p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<?$APPLICATION->IncludeComponent(
+    "bitrix:main.include",
+    ".default",
+    Array(
+        "AREA_FILE_SHOW" => "file",
+        "EDIT_TEMPLATE" => "",
+        "PATH" => "/local/templates/2018/includes/service-order-form.php",
+        "SERVICE" => $arResult["NAME"]
+    )
 );?>
-</div>
-</div>
- <a class="mod" href="#openModal"><input class="mob submit_upload m-second" type="submit" value="Записаться"></a>
-<div>
-	<br>
-</div>

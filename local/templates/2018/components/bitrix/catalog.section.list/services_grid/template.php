@@ -109,7 +109,7 @@ $this->setFrameMode(true);
                                     id="<?=$this->GetEditAreaId($element['ID']);?>"
                                     href="#lb-gallery3-9"
                             >
-                                <a href="<?=$element['DETAIL_PAGE_URL']?>?new=1">
+                                <a href="/services/<?=$element['DETAIL_PAGE_URL']?>?new=1">
                                     <?if ($previewPicture && $previewPicture['SRC']):?>
                                         <div
                                                 class="square-image"

@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="3bb1ffe1-e13c-48e3-8ad3-40c4aff14a23" name="prod" url="http://ssh.saloncni.nichost.ru">
-        <fileTransfer host="ssh.saloncni.nichost.ru" port="22" rootFolder="/home/saloncni/cni-salon.ru/docs" accessType="SFTP">
+        <fileTransfer host="ssh.saloncni.nichost.ru" port="22" rootFolder="/home/saloncni/cni-day.ru/docs" accessType="SFTP" authAgent="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

@@ -9,3 +9,36 @@
     display: block;
     pointer-events: none;
 }
+
+
+
+
+.mt-30 {
+    margin-top: 1.875em !important;
+}
+
+.mb-30 {
+    margin-bottom: 1.875em !important;
+}
+
+
+.Card {
+}
+
+.Card:before {
+    content: '';
+    display: block;
+    width: 1px;
+    margin-left: -1px;
+    padding-top: 100%;
+    float: left;
+}
+
+.Card > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
